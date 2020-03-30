@@ -1,36 +1,68 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
-from ..items import Dictionaryv2Item
+# from ..items import Dictionaryv2Item
+from .storage import Table
+from tinydb import Query
 
 
+i = 0
 class LarousseSpider(scrapy.Spider):
     name = 'larousse'
-    allowed_domains = ['www.larousse.fr/dictionnaires/francais']
-
-    current_search = None
+    allowed_domains = ['http://www.larousse.fr']
+    start_urls = [
+            'http://www.larousse.fr/dictionnaires/francais/avoir/',
+            'http://www.larousse.fr/dictionnaires/francais/etre/',
+            'http://www.larousse.fr/dictionnaires/francais/faire/',
+            'http://www.larousse.fr/dictionnaires/francais/confectionner/',
+            'http://www.larousse.fr/dictionnaires/francais/apprêter/'
+    ]
+    # current_search = None
     types = {}
+    # bdd = Table('dictionary')
+    counter = 0
+
+    def start_requests(self):
+        while len(self.start_urls) > 0:
+            yield scrapy.Request(url=self.start_urls.pop(), callback=self.parse)
 
     # Load a list of words and inject them as URLs
     def get_urls(filename):
         with open(filename) as infile:
             for word in infile:
-                LarousseSpider.current_search = word
+                # LarousseSpider.current_search = word
                 yield 'http://www.larousse.fr/dictionnaires/francais/' + word
 
-    start_urls = ['http://www.larousse.fr/dictionnaires/francais/faire/']
-    # start_urls = get_urls('error_words_search.txt')
+    # start_urls += list(get_urls('datas/documents/words_part_1.txt'))
+    # start_urls += list(get_urls('datas/documents/words_part_2.txt'))
+    # start_urls += list(get_urls('datas/documents/words_part_3.txt'))
+    # start_urls += list(get_urls('datas/documents/words_part_4.txt'))
 
     def parse(self, response):
+        self.parsePage(response)
+
+        # self.start_requests()
+        # for url in self.start_urls:
+        #     # print('[url] ' + url)
+        #     url = response.urljoin(url)
+        #     # yield scrapy.Request(url, callback=self.parsePage)
+        #     yield response.follow(url, callback=self.parsePage)
+
+    def parsePage(self, response):
+        global i
         word = dict()
         word['label'] = response.css('h2.AdresseDefinition::text').get()
 
         if word['label'] is None:
             # Trigger if an error occurs in the web content
             error_file = open("error_words_searchv2.txt", "a")
-            error_file.write(LarousseSpider.current_search)
+            # error_file.write(self.current_search)
             error_file.close()
-
+            # print(self.current_search + ' failed !')
+            return
+        i += 1
+        # print('[' + str(i)[:1] + ' ' + str(i)[1:] + '/5 027] ' + word['label'] + ' sucessed !')
+        word['ranking'] = i
         word['type'] = response.css('p.CatgramDefinition::text').get()
         word['sens'] = []
 
@@ -44,51 +76,51 @@ class LarousseSpider(scrapy.Spider):
             section_name = section.css('::text').get()
             if section_name == 'Définitions':
                 self.parseDefinitions(response, word)
-            if section_name == 'Expressions':
-                self.parseExpression(response, word)
-                # Print
-                # for expresion in word['expressions']:
-                #     print(expresion['address'])
-                #     if 'texts' in expresion: print('texts: ' + str(expresion['texts']))
-            if section_name == 'Synonymes':
+            # if section_name == 'Expressions':
+            #     self.parseExpression(response, word)
+            #     # Print
+            #     # for expresion in word['expressions']:
+            #     #     print(expresion['address'])
+            #     #     if 'texts' in expresion: print('texts: ' + str(expresion['texts']))
+            if section_name == 'Synonymes' or section_name == 'Synonymes et contraires':
                 self.parseSynonyms(response, word)
                 # Print
                 # for sens in word['sens']:
-                #     print(sens['definition'])
-                #     if 'synonyms' in sens: print('synonyms: ' + str(sens['synonyms']))
-                #     if 'examples' in sens: print('examples: ' + str(sens['examples']))
+                    # print(sens['definition'])
+                    # if 'synonyms' in sens: print('synonyms: ' + str(sens['synonyms']))
+                    # if 'examples' in sens: print('examples: ' + str(sens['examples']))
+                    # self.addSearchWords(sens['synonyms'])
             if section_name == 'Homonymes':
                 self.parseHomonyms(response, word)
-                # Print
-                # for homonym, catGramHomonym in word['homonyms']:
-                #     print(homonym + ', ' + catGramHomonym)
+            #     # Print
+            #     # for homonym, catGramHomonym in word['homonyms']:
+            #     #     print(homonym + ', ' + catGramHomonym)
             if section_name == 'Homonymes des variantes':
                 self.parseHomonymsVar(response, word)
-                # Print
-                # for address, homonymsVar in word['homonymsVar']:
-                #     print(address)
-                #     for homonym, catGramHomonym in homonymsVar:
-                #         print('   ' + homonym + ', ' + catGramHomonym)
+            #     # Print
+            #     # for address, homonymsVar in word['homonymsVar']:
+            #     #     print(address)
+            #     #     for homonym, catGramHomonym in homonymsVar:
+            #     #         print('   ' + homonym + ', ' + catGramHomonym)
             if section_name == 'Difficultés':
                 self.parseDifficulties(response, word)
-                # Print
-                # for d_type, d_block in word['difficulties']:
-                #     print(d_type)
-                #     print(d_block)
+            #     # Print
+            #     # for d_type, d_block in word['difficulties']:
+            #     #     print(d_type)
+            #     #     print(d_block)
             if section_name == 'Citations':
                 self.parseQuotes(response, word)
-                # for quote in word['quotes']:
-                #     print(quote['author'] + quote['infosAuthor'])
-                #     print(quote['text'])
-                #     print(quote['infos'])
-                #     print()
+            #     # for quote in word['quotes']:
+            #     #     print(quote['author'] + quote['infosAuthor'])
+            #     #     print(quote['text'])
+            #     #     print(quote['infos'])
+            #     #     print()
 
-        # items = Dictionaryv2Item()
+        # print(word)
+        # print(json.dumps(word, indent=2))
 
-        # items['definition'] = definition
-        # items['synonyms'] = synonyms
-
-        # yield items
+        # self.bdd.insert(word)
+        # yield {word['label']: word}
 
     def parseDefinitions(self, response, word):
         definition_list = response.css('li.DivisionDefinition')
@@ -99,7 +131,15 @@ class LarousseSpider(scrapy.Spider):
             # definition_block_text = "Une phrase particulière : Il répondit:\"Je m'en vais ...\""
             definition_block = definition_block_text.split(':', 1)
             # Get the définition meaning
-            sens['definition'] = definition_block[0].strip()
+            _def = definition_block[0]
+            _def = _def.split('.', 1)
+            if '' in _def: _def.remove('')
+            
+            if len(_def) > 1:
+                sens['tag'] = _def[0].strip()
+                sens['definition'] = _def[1].strip()
+            else:
+                sens['definition'] = definition_block[0].strip()
             # If exist, get all examples
             if len(definition_block) > 1:
                 sens['examples'] = LarousseSpider._splitSentences(definition_block[1])
@@ -114,7 +154,8 @@ class LarousseSpider(scrapy.Spider):
             texts = locution.css('span.TexteLocution')
             has_example = texts.css('span.ExempleDefinition').get() is not None
 
-            texts = texts.css('::text').get()
+            # texts = texts.css('::text').get()
+            texts = LarousseSpider._getText(texts.get())
             if has_example:
                 texts = texts[:-2]
             texts = texts.replace('\xa0;', '').split(' ; ')
@@ -130,9 +171,12 @@ class LarousseSpider(scrapy.Spider):
 
         for sens in sens_list:
             # Get the sens definition
-            definition = sens.css('p.DivisionDefinition::text, b::text').get()
+            definition = LarousseSpider._getText(sens.css('p.DivisionDefinition, b').get())
             synonyms = LarousseSpider._getText(sens.css('li.Synonyme').get())
             # Remove '.' and '...' at the end of synonyms definition
+            if definition is None:
+                word['sens'][0]['synonyms'] = synonyms
+                return
             if definition[-1] == '.':
                 if definition[-3] == '.':
                     definition = definition[:-3]
@@ -202,8 +246,18 @@ class LarousseSpider(scrapy.Spider):
 
             quote = {'author': author, 'infosAuthor': infosAuthor, 'text': text, 'infos': infos}
             quotes.append(quote)
-        
+
         word['quotes'] = quotes
+
+    @staticmethod
+    def addUrl(url):
+        LarousseSpider.start_urls.append(url)
+
+    @staticmethod
+    def addUrls(urls):
+        if type(urls) is list:
+            for url in urls:
+                LarousseSpider.addUrl(LarousseSpider.allowed_domains[0] + url)
 
     # Create the structure of sens
     @staticmethod
@@ -212,11 +266,15 @@ class LarousseSpider(scrapy.Spider):
         sens['definition'] = None
         sens['synonyms'] = []
         sens['examples'] = []
+        sens['tag'] = None
         return sens
 
     # Get all text in HTML code - TEMPORARILY
     @staticmethod
     def _getText(html_string):
+        if html_string is None:
+            return None
+
         result = re.sub(r'(<[^>]*>|&nbsp;|\xa0)', '', html_string)
         return result
 
@@ -243,3 +301,6 @@ class LarousseSpider(scrapy.Spider):
         while '' in sentences: sentences.remove('')
         # Put back the punstuation
         return [pattern.sub(lambda m: subtitute[re.escape(m.group(0))], s.strip()) for s in sentences]
+
+    def removeTag(string):
+        return re.sub(r'\([\s\S]+?\)', '', string)

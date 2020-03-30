@@ -1,0 +1,6056 @@
+{
+    "unitex/x": {
+        "1": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:ms:mp"
+        },
+        "2": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x majuscules",
+            "lem": "x majuscule",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:mp"
+        },
+        "3": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xancid\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "4": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xancid\u00e9s",
+            "lem": "xancid\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "5": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xancus",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "6": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthanne",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "7": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthannes",
+            "lem": "xanthanne",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "8": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthate",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "9": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthates",
+            "lem": "xanthate",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "10": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthia",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "11": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthias",
+            "lem": "xanthia",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "12": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "13": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthies",
+            "lem": "xanthie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "14": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthine",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "15": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthines",
+            "lem": "xanthine",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "16": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthinurie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "17": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthinuries",
+            "lem": "xanthinurie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "18": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthiosite",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "19": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthiosites",
+            "lem": "xanthiosite",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "20": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "21": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthiques",
+            "lem": "xanthique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "22": {
+            "flexional": [],
+            "gram": "PFX",
+            "label": "xantho",
+            "lem": "",
+            "semantic": [],
+            "tags": "PFX"
+        },
+        "23": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xantho",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "24": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthochromie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "25": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthochromies",
+            "lem": "xanthochromie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "26": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthochromique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "27": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthochromiques",
+            "lem": "xanthochromique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "28": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthocobaltique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "29": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthocobaltiques",
+            "lem": "xanthocobaltique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "30": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthoconite",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "31": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthoconites",
+            "lem": "xanthoconite",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "32": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthoderme",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:fs"
+        },
+        "33": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthoderme",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "34": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthodermes",
+            "lem": "xanthoderme",
+            "semantic": [],
+            "tags": "N:mp:fp"
+        },
+        "35": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthodermes",
+            "lem": "xanthoderme",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "36": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthodermie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "37": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthodermies",
+            "lem": "xanthodermie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "38": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthofibrome",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "39": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthofibromes",
+            "lem": "xanthofibrome",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "40": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthogranulomateuse",
+            "lem": "xanthogranulomateux",
+            "semantic": [],
+            "tags": "A:fs"
+        },
+        "41": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthogranulomateuses",
+            "lem": "xanthogranulomateux",
+            "semantic": [],
+            "tags": "A:fp"
+        },
+        "42": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "A",
+            "label": "xanthogranulomateux",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:mp"
+        },
+        "43": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthogranulomatose",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "44": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthogranulomatoses",
+            "lem": "xanthogranulomatose",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "45": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthogranulome",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "46": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthogranulomes",
+            "lem": "xanthogranulome",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "47": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthog\u00e9nate",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "48": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthog\u00e9nates",
+            "lem": "xanthog\u00e9nate",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "49": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthog\u00e9nique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "50": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthog\u00e9niques",
+            "lem": "xanthog\u00e9nique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "51": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xantholinus",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "52": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthomateuse",
+            "lem": "xanthomateux",
+            "semantic": [],
+            "tags": "A:fs"
+        },
+        "53": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthomateuses",
+            "lem": "xanthomateux",
+            "semantic": [],
+            "tags": "A:fp"
+        },
+        "54": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "A",
+            "label": "xanthomateux",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:mp"
+        },
+        "55": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthomatose",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "56": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthomatoses",
+            "lem": "xanthomatose",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "57": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthome",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "58": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthomes",
+            "lem": "xanthome",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "59": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthomisation",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "60": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthomisations",
+            "lem": "xanthomisation",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "61": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthomonadine",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "62": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthomonadines",
+            "lem": "xanthomonadine",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "63": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthone",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "64": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthones",
+            "lem": "xanthone",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "65": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xanthonique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "66": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xanthoniques",
+            "lem": "xanthonique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "67": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthonychie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "68": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthonychies",
+            "lem": "xanthonychie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "69": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthophyc\u00e9e",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "70": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthophyc\u00e9es",
+            "lem": "xanthophyc\u00e9e",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "71": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthophylle",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "72": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthophylles",
+            "lem": "xanthophylle",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "73": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthopsie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "74": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthopsies",
+            "lem": "xanthopsie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "75": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthoptysie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "76": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthoptysies",
+            "lem": "xanthoptysie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "77": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthopt\u00e9rine",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "78": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthopt\u00e9rines",
+            "lem": "xanthopt\u00e9rine",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "79": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthos",
+            "lem": "xantho",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "80": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthosis",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "81": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanthoxyline",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "82": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanthoxylines",
+            "lem": "xanthoxyline",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "83": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthydrol",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "84": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthydrols",
+            "lem": "xanthydrol",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "85": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanthylium",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "86": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanthyliums",
+            "lem": "xanthylium",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "87": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanth\u00e8ne",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "88": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanth\u00e8nes",
+            "lem": "xanth\u00e8ne",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "89": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xanth\u00e9lasma",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "90": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xanth\u00e9lasmas",
+            "lem": "xanth\u00e9lasma",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "91": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xanth\u00e9molyse",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "92": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xanth\u00e9molyses",
+            "lem": "xanth\u00e9molyse",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "93": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xantusie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "94": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xantusies",
+            "lem": "xantusie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "95": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xantusiid\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "96": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xantusiid\u00e9s",
+            "lem": "xantusiid\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "97": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xenopsylla",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "98": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xenopsyllas",
+            "lem": "xenopsylla",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "99": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xenos",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "100": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xestobium",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "101": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xestobiums",
+            "lem": "xestobium",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "102": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xhosa",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "103": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xi",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "104": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiang",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "105": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiangs",
+            "lem": "xiang",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "106": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "ximenia",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "107": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "ximenias",
+            "lem": "ximenia",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "108": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xim\u00e9nie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "109": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xim\u00e9nies",
+            "lem": "xim\u00e9nie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "110": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiphiid\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "111": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphiid\u00e9s",
+            "lem": "xiphiid\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "112": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xipho",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "113": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xiphodyme",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:fs"
+        },
+        "114": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiphodyme",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "115": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xiphodyme",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "116": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xiphodymes",
+            "lem": "xiphodyme",
+            "semantic": [],
+            "tags": "N:mp:fp"
+        },
+        "117": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphodymes",
+            "lem": "xiphodyme",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "118": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xiphodymes",
+            "lem": "xiphodyme",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "119": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xiphodynie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "120": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xiphodynies",
+            "lem": "xiphodynie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "121": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xiphopage",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:fs"
+        },
+        "122": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiphopage",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "123": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xiphopage",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "124": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xiphopages",
+            "lem": "xiphopage",
+            "semantic": [],
+            "tags": "N:mp:fp"
+        },
+        "125": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphopages",
+            "lem": "xiphopage",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "126": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xiphopages",
+            "lem": "xiphopage",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "127": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiphophore",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "128": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphophores",
+            "lem": "xiphophore",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "129": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphos",
+            "lem": "xipho",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "130": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiphosure",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "131": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphosures",
+            "lem": "xiphosure",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "132": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xiphosuride",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "133": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xiphosurides",
+            "lem": "xiphosuride",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "134": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xipho\u00efdalgie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "135": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xipho\u00efdalgies",
+            "lem": "xipho\u00efdalgie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "136": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xipho\u00efde",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "137": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xipho\u00efdes",
+            "lem": "xipho\u00efde",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "138": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "A",
+            "label": "xipho\u00efdien",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms"
+        },
+        "139": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xipho\u00efdienne",
+            "lem": "xipho\u00efdien",
+            "semantic": [],
+            "tags": "A:fs"
+        },
+        "140": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xipho\u00efdiennes",
+            "lem": "xipho\u00efdien",
+            "semantic": [],
+            "tags": "A:fp"
+        },
+        "141": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "A",
+            "label": "xipho\u00efdiens",
+            "lem": "xipho\u00efdien",
+            "semantic": [],
+            "tags": "A:mp"
+        },
+        "142": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xiphydrie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "143": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xiphydries",
+            "lem": "xiphydrie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "144": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xocoatl",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "145": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xonotlite",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "146": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xonotlites",
+            "lem": "xonotlite",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "147": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylanne",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "148": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylannes",
+            "lem": "xylanne",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "149": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xyleborus",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "150": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylidine",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "151": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylidines",
+            "lem": "xylidine",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "152": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylite",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "153": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylites",
+            "lem": "xylite",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "154": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylitol",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "155": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylitols",
+            "lem": "xylitol",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "156": {
+            "flexional": [],
+            "gram": "PFX",
+            "label": "xylo",
+            "lem": "",
+            "semantic": [],
+            "tags": "PFX"
+        },
+        "157": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylochimie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "158": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylochimies",
+            "lem": "xylochimie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "159": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylocope",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "160": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylocopes",
+            "lem": "xylocope",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "161": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylodr\u00e8pe",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "162": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylodr\u00e8pes",
+            "lem": "xylodr\u00e8pe",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "163": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xyloglyphie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "164": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xyloglyphies",
+            "lem": "xyloglyphie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "165": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xyloglyptique",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "166": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xyloglyptique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "167": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xyloglyptiques",
+            "lem": "xyloglyptique",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "168": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xyloglyptiques",
+            "lem": "xyloglyptique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "169": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylographe",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:fs"
+        },
+        "170": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylographes",
+            "lem": "xylographe",
+            "semantic": [],
+            "tags": "N:mp:fp"
+        },
+        "171": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "xylographia",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:J3s"
+        },
+        "172": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "xylographiai",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:J1s"
+        },
+        "173": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "xylographiaient",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:I3p"
+        },
+        "174": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "xylographiais",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:I1s:I2s"
+        },
+        "175": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "xylographiait",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:I3s"
+        },
+        "176": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "xylographiant",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:G"
+        },
+        "177": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "xylographias",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:J2s"
+        },
+        "178": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "xylographiasse",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:T1s"
+        },
+        "179": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "xylographiassent",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:T3p"
+        },
+        "180": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "xylographiasses",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:T2s"
+        },
+        "181": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "xylographiassiez",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:T2p"
+        },
+        "182": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "xylographiassions",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:T1p"
+        },
+        "183": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "xylographie",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "184": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylographie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "185": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "xylographient",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:P3p:S3p"
+        },
+        "186": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "xylographier",
+            "lem": "",
+            "semantic": [],
+            "tags": "V:W"
+        },
+        "187": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "xylographiera",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:F3s"
+        },
+        "188": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "xylographierai",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:F1s"
+        },
+        "189": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "xylographieraient",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:C3p"
+        },
+        "190": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "xylographierais",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:C1s:C2s"
+        },
+        "191": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "xylographierait",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:C3s"
+        },
+        "192": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "xylographieras",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:F2s"
+        },
+        "193": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "xylographierez",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:F2p"
+        },
+        "194": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "xylographieriez",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:C2p"
+        },
+        "195": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "xylographierions",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:C1p"
+        },
+        "196": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "xylographierons",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:F1p"
+        },
+        "197": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "xylographieront",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:F3p"
+        },
+        "198": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "xylographies",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:P2s:S2s"
+        },
+        "199": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylographies",
+            "lem": "xylographie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "200": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "xylographiez",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:P2p:Y2p"
+        },
+        "201": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "xylographiiez",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:I2p:S2p"
+        },
+        "202": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "xylographiions",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:I1p:S1p"
+        },
+        "203": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "xylographions",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:P1p:Y1p"
+        },
+        "204": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xylographique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "205": {
+            "flexional": [],
+            "gram": "ADV",
+            "label": "xylographiquement",
+            "lem": "",
+            "semantic": [],
+            "tags": "ADV"
+        },
+        "206": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xylographiques",
+            "lem": "xylographique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "207": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e2mes",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:J1p"
+        },
+        "208": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e2t",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:T3s"
+        },
+        "209": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e2tes",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:J2p"
+        },
+        "210": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e8rent",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:J3p"
+        },
+        "211": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e9",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:Kms"
+        },
+        "212": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e9e",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:Kfs"
+        },
+        "213": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e9es",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:Kfp"
+        },
+        "214": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "xylographi\u00e9s",
+            "lem": "xylographier",
+            "semantic": [],
+            "tags": "V:Kmp"
+        },
+        "215": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylol",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "216": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylologie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "217": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylologies",
+            "lem": "xylologie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "218": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xylologique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "219": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xylologiques",
+            "lem": "xylologique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "220": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylols",
+            "lem": "xylol",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "221": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylomancie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "222": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylomancies",
+            "lem": "xylomancie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "223": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xylonique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "224": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xyloniques",
+            "lem": "xylonique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "225": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylophage",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "226": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "xylophage",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "227": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylophages",
+            "lem": "xylophage",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "228": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "xylophages",
+            "lem": "xylophage",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "229": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylophagie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "230": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylophagies",
+            "lem": "xylophagie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "231": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylophone",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms"
+        },
+        "232": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xylophones",
+            "lem": "xylophone",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:mp"
+        },
+        "233": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylophoniste",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:fs"
+        },
+        "234": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylophonistes",
+            "lem": "xylophoniste",
+            "semantic": [],
+            "tags": "N:mp:fp"
+        },
+        "235": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xyloph\u00e8ne",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms"
+        },
+        "236": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xyloph\u00e8nes",
+            "lem": "xyloph\u00e8ne",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:mp"
+        },
+        "237": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xylose",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "238": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xyloses",
+            "lem": "xylose",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "239": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylosurie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "240": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylosuries",
+            "lem": "xylosurie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "241": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "xylota",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "242": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "xylotas",
+            "lem": "xylota",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "243": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xyl\u00e8me",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "244": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xyl\u00e8mes",
+            "lem": "xyl\u00e8me",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "245": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xyl\u00e8ne",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "246": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xyl\u00e8nes",
+            "lem": "xyl\u00e8ne",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "247": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xyl\u00e9nol",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "248": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xyl\u00e9nols",
+            "lem": "xyl\u00e9nol",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "249": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xyste",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "250": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xystes",
+            "lem": "xyste",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "251": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xysticus",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "252": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "xystique",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "253": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "xystiques",
+            "lem": "xystique",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "254": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9narthre",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "255": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9narthres",
+            "lem": "x\u00e9narthre",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "256": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "257": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nies",
+            "lem": "x\u00e9nie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "258": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nique",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "259": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9niques",
+            "lem": "x\u00e9nique",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "260": {
+            "flexional": [],
+            "gram": "PFX",
+            "label": "x\u00e9no",
+            "lem": "",
+            "semantic": [],
+            "tags": "PFX"
+        },
+        "261": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nobiotique",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "262": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nobiotique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "263": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nobiotiques",
+            "lem": "x\u00e9nobiotique",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "264": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nobiotiques",
+            "lem": "x\u00e9nobiotique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "265": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nocoeloma",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "266": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nocoelomas",
+            "lem": "x\u00e9nocoeloma",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "267": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nocristal",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "268": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nocristaux",
+            "lem": "x\u00e9nocristal",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "269": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodermin\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "270": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodermin\u00e9s",
+            "lem": "x\u00e9nodermin\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "271": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodevise",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "272": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodevises",
+            "lem": "x\u00e9nodevise",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "273": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodiagnostic",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "274": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodiagnostics",
+            "lem": "x\u00e9nodiagnostic",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "275": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodontin\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "276": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodontin\u00e9s",
+            "lem": "x\u00e9nodontin\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "277": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodoque",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "278": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nodoques",
+            "lem": "x\u00e9nodoque",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "279": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9noglossie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "280": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9noglossies",
+            "lem": "x\u00e9noglossie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "281": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nogreffe",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "282": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nogreffes",
+            "lem": "x\u00e9nogreffe",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "283": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nog\u00e9nique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "284": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nog\u00e9niques",
+            "lem": "x\u00e9nog\u00e9nique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "285": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nolite",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "286": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nolites",
+            "lem": "x\u00e9nolite",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "287": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nomorphe",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "288": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nomorphes",
+            "lem": "x\u00e9nomorphe",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "289": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9non",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms"
+        },
+        "290": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nongul\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "291": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nongul\u00e9s",
+            "lem": "x\u00e9nongul\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "292": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9noparasitisme",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "293": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9noparasitismes",
+            "lem": "x\u00e9noparasitisme",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "294": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nopathique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "295": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nopathiques",
+            "lem": "x\u00e9nopathique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "296": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nope",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "297": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nopeltin\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "298": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nopeltin\u00e9s",
+            "lem": "x\u00e9nopeltin\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "299": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nopes",
+            "lem": "x\u00e9nope",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "300": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophile",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:fs"
+        },
+        "301": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nophile",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "302": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophiles",
+            "lem": "x\u00e9nophile",
+            "semantic": [],
+            "tags": "N:mp:fp"
+        },
+        "303": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nophiles",
+            "lem": "x\u00e9nophile",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "304": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophilie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "305": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophilies",
+            "lem": "x\u00e9nophilie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "306": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophobe",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:ms:fs"
+        },
+        "307": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nophobe",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "A+z1:ms:fs"
+        },
+        "308": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophobes",
+            "lem": "x\u00e9nophobe",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:mp:fp"
+        },
+        "309": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9nophobes",
+            "lem": "x\u00e9nophobe",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "A+z1:mp:fp"
+        },
+        "310": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophobie",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:fs"
+        },
+        "311": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophobies",
+            "lem": "x\u00e9nophobie",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:fp"
+        },
+        "312": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophore",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "313": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nophores",
+            "lem": "x\u00e9nophore",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "314": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9noplastique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "315": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9noplastiques",
+            "lem": "x\u00e9noplastique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "316": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nosaurid\u00e9",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "317": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9nosaurid\u00e9s",
+            "lem": "x\u00e9nosaurid\u00e9",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "318": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9notest",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "319": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9notests",
+            "lem": "x\u00e9notest",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "320": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9notime",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "321": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9notimes",
+            "lem": "x\u00e9notime",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "322": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9notrope",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "323": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9notropes",
+            "lem": "x\u00e9notrope",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "324": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9notropisme",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "325": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9notropismes",
+            "lem": "x\u00e9notropisme",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "326": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9n\u00e9lasie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "327": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9n\u00e9lasies",
+            "lem": "x\u00e9n\u00e9lasie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "328": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9ranth\u00e8me",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "329": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9ranth\u00e8mes",
+            "lem": "x\u00e9ranth\u00e8me",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "330": {
+            "flexional": [],
+            "gram": "PFX",
+            "label": "x\u00e9ro",
+            "lem": "",
+            "semantic": [],
+            "tags": "PFX"
+        },
+        "331": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rochim\u00e9nique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "332": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rochim\u00e9niques",
+            "lem": "x\u00e9rochim\u00e9nique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "333": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopia",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:J3s"
+        },
+        "334": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiai",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:J1s"
+        },
+        "335": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiaient",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:I3p"
+        },
+        "336": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiais",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:I1s:I2s"
+        },
+        "337": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiait",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:I3s"
+        },
+        "338": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiant",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:G"
+        },
+        "339": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopias",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:J2s"
+        },
+        "340": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiasse",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:T1s"
+        },
+        "341": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiassent",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:T3p"
+        },
+        "342": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiasses",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:T2s"
+        },
+        "343": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiassiez",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:T2p"
+        },
+        "344": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiassions",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:T1p"
+        },
+        "345": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopie",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "346": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rocopie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "347": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopient",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:P3p:S3p"
+        },
+        "348": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopier",
+            "lem": "",
+            "semantic": [],
+            "tags": "V:W"
+        },
+        "349": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiera",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:F3s"
+        },
+        "350": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopierai",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:F1s"
+        },
+        "351": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopieraient",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:C3p"
+        },
+        "352": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopierais",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:C1s:C2s"
+        },
+        "353": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopierait",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:C3s"
+        },
+        "354": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopieras",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:F2s"
+        },
+        "355": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopierez",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:F2p"
+        },
+        "356": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopieriez",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:C2p"
+        },
+        "357": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopierions",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:C1p"
+        },
+        "358": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopierons",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:F1p"
+        },
+        "359": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopieront",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:F3p"
+        },
+        "360": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopies",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:P2s:S2s"
+        },
+        "361": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rocopies",
+            "lem": "x\u00e9rocopie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "362": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiez",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:P2p:Y2p"
+        },
+        "363": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiiez",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:I2p:S2p"
+        },
+        "364": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopiions",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:I1p:S1p"
+        },
+        "365": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopions",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:P1p:Y1p"
+        },
+        "366": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e2mes",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:J1p"
+        },
+        "367": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e2t",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:T3s"
+        },
+        "368": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e2tes",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:J2p"
+        },
+        "369": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e8rent",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:J3p"
+        },
+        "370": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e9",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:Kms"
+        },
+        "371": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e9e",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:Kfs"
+        },
+        "372": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e9es",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:Kfp"
+        },
+        "373": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rocopi\u00e9s",
+            "lem": "x\u00e9rocopier",
+            "semantic": [],
+            "tags": "V:Kmp"
+        },
+        "374": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rodermie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "375": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rodermie pigmentaire",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "376": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rodermies",
+            "lem": "x\u00e9rodermie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "377": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rodermique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "378": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rodermiques",
+            "lem": "x\u00e9rodermique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "379": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rodermost\u00e9ose",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "380": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rodermost\u00e9oses",
+            "lem": "x\u00e9rodermost\u00e9ose",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "381": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographia",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:J3s"
+        },
+        "382": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographia",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J3s"
+        },
+        "383": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiai",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:J1s"
+        },
+        "384": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiai",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J1s"
+        },
+        "385": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiaient",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:I3p"
+        },
+        "386": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiaient",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I3p"
+        },
+        "387": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiais",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:I1s:I2s"
+        },
+        "388": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiais",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I1s:I2s"
+        },
+        "389": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiait",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:I3s"
+        },
+        "390": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiait",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I3s"
+        },
+        "391": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiant",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:G"
+        },
+        "392": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiant",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:G"
+        },
+        "393": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographias",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:J2s"
+        },
+        "394": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographias",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J2s"
+        },
+        "395": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiasse",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:T1s"
+        },
+        "396": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiasse",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T1s"
+        },
+        "397": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiassent",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:T3p"
+        },
+        "398": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiassent",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T3p"
+        },
+        "399": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiasses",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:T2s"
+        },
+        "400": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiasses",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T2s"
+        },
+        "401": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiassiez",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:T2p"
+        },
+        "402": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiassiez",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T2p"
+        },
+        "403": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiassions",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:T1p"
+        },
+        "404": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiassions",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T1p"
+        },
+        "405": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographie",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "406": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographie",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "407": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rographie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "408": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographient",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:P3p:S3p"
+        },
+        "409": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographient",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P3p:S3p"
+        },
+        "410": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographier",
+            "lem": "",
+            "semantic": [],
+            "tags": "V:W"
+        },
+        "411": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographier",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:W"
+        },
+        "412": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiera",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:F3s"
+        },
+        "413": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiera",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F3s"
+        },
+        "414": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierai",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:F1s"
+        },
+        "415": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierai",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F1s"
+        },
+        "416": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieraient",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:C3p"
+        },
+        "417": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieraient",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C3p"
+        },
+        "418": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierais",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:C1s:C2s"
+        },
+        "419": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierais",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C1s:C2s"
+        },
+        "420": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierait",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:C3s"
+        },
+        "421": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierait",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C3s"
+        },
+        "422": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieras",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:F2s"
+        },
+        "423": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieras",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F2s"
+        },
+        "424": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierez",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:F2p"
+        },
+        "425": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierez",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F2p"
+        },
+        "426": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieriez",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:C2p"
+        },
+        "427": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieriez",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C2p"
+        },
+        "428": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierions",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:C1p"
+        },
+        "429": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierions",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C1p"
+        },
+        "430": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierons",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:F1p"
+        },
+        "431": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographierons",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F1p"
+        },
+        "432": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieront",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:F3p"
+        },
+        "433": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographieront",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F3p"
+        },
+        "434": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographies",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:P2s:S2s"
+        },
+        "435": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographies",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P2s:S2s"
+        },
+        "436": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rographies",
+            "lem": "x\u00e9rographie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "437": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiez",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:P2p:Y2p"
+        },
+        "438": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiez",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P2p:Y2p"
+        },
+        "439": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiiez",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:I2p:S2p"
+        },
+        "440": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiiez",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I2p:S2p"
+        },
+        "441": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiions",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:I1p:S1p"
+        },
+        "442": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographiions",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I1p:S1p"
+        },
+        "443": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographions",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:P1p:Y1p"
+        },
+        "444": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographions",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P1p:Y1p"
+        },
+        "445": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rographique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "446": {
+            "flexional": [],
+            "gram": "ADV",
+            "label": "x\u00e9rographiquement",
+            "lem": "",
+            "semantic": [],
+            "tags": "ADV"
+        },
+        "447": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rographiques",
+            "lem": "x\u00e9rographique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "448": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e2mes",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:J1p"
+        },
+        "449": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e2mes",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J1p"
+        },
+        "450": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e2t",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:T3s"
+        },
+        "451": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e2t",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T3s"
+        },
+        "452": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e2tes",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:J2p"
+        },
+        "453": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e2tes",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J2p"
+        },
+        "454": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e8rent",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:J3p"
+        },
+        "455": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e8rent",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J3p"
+        },
+        "456": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:Kms"
+        },
+        "457": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kms"
+        },
+        "458": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9e",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:Kfs"
+        },
+        "459": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9e",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kfs"
+        },
+        "460": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9es",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:Kfp"
+        },
+        "461": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9es",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kfp"
+        },
+        "462": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9s",
+            "lem": "x\u00e9rographier",
+            "semantic": [],
+            "tags": "V:Kmp"
+        },
+        "463": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rographi\u00e9s",
+            "lem": "x\u00e9rographier",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kmp"
+        },
+        "464": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rome",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "465": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9romes",
+            "lem": "x\u00e9rome",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "466": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9romorphose",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "467": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9romorphoses",
+            "lem": "x\u00e9romorphose",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "468": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rophile",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "469": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rophiles",
+            "lem": "x\u00e9rophile",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "470": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rophtalmie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "471": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rophtalmies",
+            "lem": "x\u00e9rophtalmie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "472": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rophyte",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "473": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rophytes",
+            "lem": "x\u00e9rophyte",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "474": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rophytique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "475": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rophytiques",
+            "lem": "x\u00e9rophytique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "476": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9roradiographie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "477": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9roradiographies",
+            "lem": "x\u00e9roradiographie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "478": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rorhinie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "479": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rorhinies",
+            "lem": "x\u00e9rorhinie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "480": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rorrhinie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "481": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rorrhinies",
+            "lem": "x\u00e9rorrhinie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "482": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rose",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "483": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9roses",
+            "lem": "x\u00e9rose",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "484": {
+            "flexional": [
+                "fs",
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rosis",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs:fp"
+        },
+        "485": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rosol",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "486": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rosols",
+            "lem": "x\u00e9rosol",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "487": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rostomie",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "488": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rostomies",
+            "lem": "x\u00e9rostomie",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "489": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rothermique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "490": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9rothermiques",
+            "lem": "x\u00e9rothermique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "491": {
+            "flexional": [
+                "ms",
+                "fs"
+            ],
+            "gram": "A",
+            "label": "x\u00e9roth\u00e9rique",
+            "lem": "",
+            "semantic": [],
+            "tags": "A:ms:fs"
+        },
+        "492": {
+            "flexional": [
+                "mp",
+                "fp"
+            ],
+            "gram": "A",
+            "label": "x\u00e9roth\u00e9riques",
+            "lem": "x\u00e9roth\u00e9rique",
+            "semantic": [],
+            "tags": "A:mp:fp"
+        },
+        "493": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxa",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:J3s"
+        },
+        "494": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxa",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J3s"
+        },
+        "495": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxai",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:J1s"
+        },
+        "496": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxai",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J1s"
+        },
+        "497": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxaient",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:I3p"
+        },
+        "498": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxaient",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I3p"
+        },
+        "499": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxais",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:I1s:I2s"
+        },
+        "500": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxais",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I1s:I2s"
+        },
+        "501": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxait",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:I3s"
+        },
+        "502": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxait",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I3s"
+        },
+        "503": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxant",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:G"
+        },
+        "504": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxant",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:G"
+        },
+        "505": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxas",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:J2s"
+        },
+        "506": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxas",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J2s"
+        },
+        "507": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxasse",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:T1s"
+        },
+        "508": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxasse",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T1s"
+        },
+        "509": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxassent",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:T3p"
+        },
+        "510": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxassent",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T3p"
+        },
+        "511": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxasses",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:T2s"
+        },
+        "512": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxasses",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T2s"
+        },
+        "513": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxassiez",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:T2p"
+        },
+        "514": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxassiez",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T2p"
+        },
+        "515": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxassions",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:T1p"
+        },
+        "516": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxassions",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T1p"
+        },
+        "517": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxe",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "518": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxe",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "519": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxent",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:P3p:S3p"
+        },
+        "520": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxent",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P3p:S3p"
+        },
+        "521": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxer",
+            "lem": "",
+            "semantic": [],
+            "tags": "V:W"
+        },
+        "522": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxer",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:W"
+        },
+        "523": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxera",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:F3s"
+        },
+        "524": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxera",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F3s"
+        },
+        "525": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerai",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:F1s"
+        },
+        "526": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerai",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F1s"
+        },
+        "527": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeraient",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:C3p"
+        },
+        "528": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeraient",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C3p"
+        },
+        "529": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerais",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:C1s:C2s"
+        },
+        "530": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerais",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C1s:C2s"
+        },
+        "531": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerait",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:C3s"
+        },
+        "532": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerait",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C3s"
+        },
+        "533": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeras",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:F2s"
+        },
+        "534": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeras",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F2s"
+        },
+        "535": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerez",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:F2p"
+        },
+        "536": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerez",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F2p"
+        },
+        "537": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeriez",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:C2p"
+        },
+        "538": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeriez",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C2p"
+        },
+        "539": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerions",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:C1p"
+        },
+        "540": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerions",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:C1p"
+        },
+        "541": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerons",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:F1p"
+        },
+        "542": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxerons",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F1p"
+        },
+        "543": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeront",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:F3p"
+        },
+        "544": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxeront",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:F3p"
+        },
+        "545": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxes",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:P2s:S2s"
+        },
+        "546": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxes",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P2s:S2s"
+        },
+        "547": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxez",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:P2p:Y2p"
+        },
+        "548": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxez",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P2p:Y2p"
+        },
+        "549": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxiez",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:I2p:S2p"
+        },
+        "550": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxiez",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I2p:S2p"
+        },
+        "551": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxions",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:I1p:S1p"
+        },
+        "552": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxions",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:I1p:S1p"
+        },
+        "553": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxons",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:P1p:Y1p"
+        },
+        "554": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9roxons",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:P1p:Y1p"
+        },
+        "555": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e2mes",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:J1p"
+        },
+        "556": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e2mes",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J1p"
+        },
+        "557": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e2t",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:T3s"
+        },
+        "558": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e2t",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:T3s"
+        },
+        "559": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e2tes",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:J2p"
+        },
+        "560": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e2tes",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J2p"
+        },
+        "561": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e8rent",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:J3p"
+        },
+        "562": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e8rent",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:J3p"
+        },
+        "563": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:Kms"
+        },
+        "564": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kms"
+        },
+        "565": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9e",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:Kfs"
+        },
+        "566": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9e",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kfs"
+        },
+        "567": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9es",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:Kfp"
+        },
+        "568": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9es",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kfp"
+        },
+        "569": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9s",
+            "lem": "x\u00e9roxer",
+            "semantic": [],
+            "tags": "V:Kmp"
+        },
+        "570": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "x\u00e9rox\u00e9s",
+            "lem": "x\u00e9roxer",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "V+z1:Kmp"
+        },
+        "571": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9rus",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms:mp"
+        },
+        "572": {
+            "flexional": [
+                "ms",
+                "mp"
+            ],
+            "gram": "N",
+            "label": "x\u00e9r\u00e8s",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms:mp"
+        }
+    }
+}

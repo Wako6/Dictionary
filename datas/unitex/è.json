@@ -1,0 +1,393 @@
+{
+    "unitex/\u00e8": {
+        "1": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00e8be",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "2": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "\u00e8che",
+            "lem": "\u00e9cher",
+            "semantic": [],
+            "tags": "V:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "3": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8che",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "4": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "\u00e8chent",
+            "lem": "\u00e9cher",
+            "semantic": [],
+            "tags": "V:P3p:S3p"
+        },
+        "5": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "\u00e8ches",
+            "lem": "\u00e9cher",
+            "semantic": [],
+            "tags": "V:P2s:S2s"
+        },
+        "6": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8ches",
+            "lem": "\u00e8che",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "7": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:fs"
+        },
+        "8": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re arch\u00e9ozo\u00efque",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "9": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re atomique",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:fs"
+        },
+        "10": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re chr\u00e9tienne",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:fs"
+        },
+        "11": {
+            "flexional": [],
+            "gram": "NDET",
+            "label": "\u00e8re de",
+            "lem": "",
+            "semantic": [
+                "Dnom13"
+            ],
+            "tags": "NDET+Dnom13"
+        },
+        "12": {
+            "flexional": [],
+            "gram": "NDET",
+            "label": "\u00e8re de la",
+            "lem": "\u00e8re de",
+            "semantic": [
+                "Dnom13"
+            ],
+            "tags": "NDET+Dnom13"
+        },
+        "13": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re hadronique",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "14": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re industrielle",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:fs"
+        },
+        "15": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re leptonique",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "16": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re nouvelle",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:fs"
+        },
+        "17": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re nucl\u00e9aire",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:fs"
+        },
+        "18": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re pal\u00e9ozo\u00efque",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "19": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re primaire",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z2"
+            ],
+            "tags": "N+NA+z2:fs"
+        },
+        "20": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re quaternaire",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z2"
+            ],
+            "tags": "N+NA+z2:fs"
+        },
+        "21": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re radiative",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "22": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re secondaire",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z2"
+            ],
+            "tags": "N+NA+z2:fs"
+        },
+        "23": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re stalinienne",
+            "lem": "",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fs"
+        },
+        "24": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8re victorienne",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "z2"
+            ],
+            "tags": "N+NA+z2:fs"
+        },
+        "25": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8res",
+            "lem": "\u00e8re",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:fp"
+        },
+        "26": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8res arch\u00e9ozo\u00efques",
+            "lem": "\u00e8re arch\u00e9ozo\u00efque",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fp"
+        },
+        "27": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8res chr\u00e9tiennes",
+            "lem": "\u00e8re chr\u00e9tienne",
+            "semantic": [
+                "NA",
+                "z1"
+            ],
+            "tags": "N+NA+z1:fp"
+        },
+        "28": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8res hadroniques",
+            "lem": "\u00e8re hadronique",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fp"
+        },
+        "29": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8res leptoniques",
+            "lem": "\u00e8re leptonique",
+            "semantic": [
+                "NA"
+            ],
+            "tags": "N+NA:fp"
+        },
+        "30": {
+            "flexional": [],
+            "gram": "PREP",
+            "label": "\u00e8s",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "PREP+z2"
+        },
+        "31": {
+            "flexional": [],
+            "gram": "ADV",
+            "label": "\u00e8s qualit\u00e9",
+            "lem": "",
+            "semantic": [
+                "PC",
+                "z1"
+            ],
+            "tags": "ADV+PC+z1"
+        },
+        "32": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00e8ve",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "33": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00e8ves",
+            "lem": "\u00e8ve",
+            "semantic": [],
+            "tags": "N:fp"
+        }
+    }
+}

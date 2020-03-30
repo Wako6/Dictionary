@@ -1,0 +1,1534 @@
+{
+    "unitex/\u00ee": {
+        "1": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:fs"
+        },
+        "2": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele Maurice",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fs"
+        },
+        "3": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele Saint-Louis",
+            "lem": "",
+            "semantic": [
+                "NXN",
+                "Conc"
+            ],
+            "tags": "N+NXN+Conc:fs"
+        },
+        "4": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele artificielle",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc",
+                "z2"
+            ],
+            "tags": "N+NA+Conc+z2:fs"
+        },
+        "5": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele battue par les vents",
+            "lem": "",
+            "semantic": [
+                "NAPN",
+                "Conc"
+            ],
+            "tags": "N+NAPN+Conc:fs"
+        },
+        "6": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele c\u00f4ti\u00e8re",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc"
+            ],
+            "tags": "N+NA+Conc:fs"
+        },
+        "7": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele d'Ol\u00e9ron",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "8": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Bali",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "9": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Beaut\u00e9",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "10": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Born\u00e9o",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "11": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Chypre",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "12": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Cr\u00e8te",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "13": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de France",
+            "lem": "",
+            "semantic": [
+                "NDN"
+            ],
+            "tags": "N+NDN:fs"
+        },
+        "14": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Java",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "15": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Mad\u00e8re",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "16": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de P\u00e2ques",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "17": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Rhodes",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "18": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de R\u00e9",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "19": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Sainte-H\u00e9l\u00e8ne",
+            "lem": "",
+            "semantic": [
+                "NPAN",
+                "Conc"
+            ],
+            "tags": "N+NPAN+Conc:fs"
+        },
+        "20": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Sumatra",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "21": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Ta\u00efwan",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "22": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de Tobago",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "23": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de la Barbade",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "24": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de la Cit\u00e9",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "25": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de la Guadeloupe",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "26": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de la R\u00e9union",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "27": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de la Tortue",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "28": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele de la Trinit\u00e9",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "29": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele du Diable",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fs"
+        },
+        "30": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele d\u00e9serte",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NA+Conc+z1:fs"
+        },
+        "31": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eele flottante",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc",
+                "z2"
+            ],
+            "tags": "N+NA+Conc+z2:fs"
+        },
+        "32": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles",
+            "lem": "\u00eele",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:fp"
+        },
+        "33": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Al\u00e9outiennes",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc+Conc:fp"
+        },
+        "34": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Australes",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc"
+            ],
+            "tags": "N+NA+Conc:fp"
+        },
+        "35": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Bahamas",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "36": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Bal\u00e9ares",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "37": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Britanniques",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc"
+            ],
+            "tags": "N+NA+Conc:fp"
+        },
+        "38": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Canaries",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "39": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Ca\u00efmans",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "40": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Comores",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z2"
+            ],
+            "tags": "N+NN+Conc+z2:fp"
+        },
+        "41": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Eoliennes",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "42": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Fortun\u00e9es",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "43": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles F\u00e9ro\u00e9",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "44": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Galapagos",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "45": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Glorieuses",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "46": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Hawa\u00ef",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "47": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Ioniennes",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "48": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Kouriles",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "49": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Maldives",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "50": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Malouines",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "51": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Marquises",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NN+Conc+z1:fp"
+        },
+        "52": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Shetland",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "53": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles Vierges",
+            "lem": "",
+            "semantic": [
+                "NN",
+                "Conc"
+            ],
+            "tags": "N+NN+Conc:fp"
+        },
+        "54": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles anglo-normandes",
+            "lem": "",
+            "semantic": [
+                "NXA",
+                "Conc"
+            ],
+            "tags": "N+NXA+Conc:fp"
+        },
+        "55": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles artificielles",
+            "lem": "\u00eele artificielle",
+            "semantic": [
+                "NA",
+                "Conc",
+                "z2"
+            ],
+            "tags": "N+NA+Conc+z2:fp"
+        },
+        "56": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles de la Sonde",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fp"
+        },
+        "57": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles d\u00e9sertes",
+            "lem": "\u00eele d\u00e9serte",
+            "semantic": [
+                "NA",
+                "Conc",
+                "z1"
+            ],
+            "tags": "N+NA+Conc+z1:fp"
+        },
+        "58": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles madr\u00e9poriques",
+            "lem": "\u00eele madr\u00e9porique",
+            "semantic": [
+                "NA",
+                "Conc"
+            ],
+            "tags": "N+NA+Conc:fp"
+        },
+        "59": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeles sous le Vent",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "Conc"
+            ],
+            "tags": "N+NDN+Conc:fp"
+        },
+        "60": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelet",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:ms"
+        },
+        "61": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "\u00eelets",
+            "lem": "\u00eelet",
+            "semantic": [],
+            "tags": "N:mp"
+        },
+        "62": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eelette",
+            "lem": "",
+            "semantic": [],
+            "tags": "N:fs"
+        },
+        "63": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eelettes",
+            "lem": "\u00eelette",
+            "semantic": [],
+            "tags": "N:fp"
+        },
+        "64": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelien",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms"
+        },
+        "65": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "A",
+            "label": "\u00eelien",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "A+z2:ms"
+        },
+        "66": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eelienne",
+            "lem": "\u00eelien",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:fs"
+        },
+        "67": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "A",
+            "label": "\u00eelienne",
+            "lem": "\u00eelien",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "A+z2:fs"
+        },
+        "68": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeliennes",
+            "lem": "\u00eelien",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:fp"
+        },
+        "69": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "A",
+            "label": "\u00eeliennes",
+            "lem": "\u00eelien",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "A+z2:fp"
+        },
+        "70": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "\u00eeliens",
+            "lem": "\u00eelien",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:mp"
+        },
+        "71": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "A",
+            "label": "\u00eeliens",
+            "lem": "\u00eelien",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "A+z2:mp"
+        },
+        "72": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelot",
+            "lem": "",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:ms"
+        },
+        "73": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelot de r\u00e9sistance",
+            "lem": "",
+            "semantic": [
+                "NDN",
+                "HumColl"
+            ],
+            "tags": "N+NDN+HumColl:ms"
+        },
+        "74": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelot nucl\u00e9aire",
+            "lem": "",
+            "semantic": [
+                "NA",
+                "Conc"
+            ],
+            "tags": "N+NA+Conc:ms"
+        },
+        "75": {
+            "flexional": [
+                "J3s"
+            ],
+            "gram": "V",
+            "label": "\u00eelota",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:J3s"
+        },
+        "76": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelotage",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms"
+        },
+        "77": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "\u00eelotages",
+            "lem": "\u00eelotage",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:mp"
+        },
+        "78": {
+            "flexional": [
+                "J1s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotai",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:J1s"
+        },
+        "79": {
+            "flexional": [
+                "I3p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotaient",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:I3p"
+        },
+        "80": {
+            "flexional": [
+                "I1s",
+                "I2s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotais",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:I1s:I2s"
+        },
+        "81": {
+            "flexional": [
+                "I3s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotait",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:I3s"
+        },
+        "82": {
+            "flexional": [
+                "G"
+            ],
+            "gram": "V",
+            "label": "\u00eelotant",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:G"
+        },
+        "83": {
+            "flexional": [
+                "J2s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotas",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:J2s"
+        },
+        "84": {
+            "flexional": [
+                "T1s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotasse",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:T1s"
+        },
+        "85": {
+            "flexional": [
+                "T3p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotassent",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:T3p"
+        },
+        "86": {
+            "flexional": [
+                "T2s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotasses",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:T2s"
+        },
+        "87": {
+            "flexional": [
+                "T2p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotassiez",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:T2p"
+        },
+        "88": {
+            "flexional": [
+                "T1p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotassions",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:T1p"
+        },
+        "89": {
+            "flexional": [
+                "P1s",
+                "P3s",
+                "S1s",
+                "S3s",
+                "Y2s"
+            ],
+            "gram": "V",
+            "label": "\u00eelote",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:P1s:P3s:S1s:S3s:Y2s"
+        },
+        "90": {
+            "flexional": [
+                "P3p",
+                "S3p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotent",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:P3p:S3p"
+        },
+        "91": {
+            "flexional": [
+                "W"
+            ],
+            "gram": "V",
+            "label": "\u00eeloter",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:W"
+        },
+        "92": {
+            "flexional": [
+                "F3s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotera",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:F3s"
+        },
+        "93": {
+            "flexional": [
+                "F1s"
+            ],
+            "gram": "V",
+            "label": "\u00eeloterai",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:F1s"
+        },
+        "94": {
+            "flexional": [
+                "C3p"
+            ],
+            "gram": "V",
+            "label": "\u00eeloteraient",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:C3p"
+        },
+        "95": {
+            "flexional": [
+                "C1s",
+                "C2s"
+            ],
+            "gram": "V",
+            "label": "\u00eeloterais",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:C1s:C2s"
+        },
+        "96": {
+            "flexional": [
+                "C3s"
+            ],
+            "gram": "V",
+            "label": "\u00eeloterait",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:C3s"
+        },
+        "97": {
+            "flexional": [
+                "F2s"
+            ],
+            "gram": "V",
+            "label": "\u00eeloteras",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:F2s"
+        },
+        "98": {
+            "flexional": [
+                "F2p"
+            ],
+            "gram": "V",
+            "label": "\u00eeloterez",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:F2p"
+        },
+        "99": {
+            "flexional": [
+                "C2p"
+            ],
+            "gram": "V",
+            "label": "\u00eeloteriez",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:C2p"
+        },
+        "100": {
+            "flexional": [
+                "C1p"
+            ],
+            "gram": "V",
+            "label": "\u00eeloterions",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:C1p"
+        },
+        "101": {
+            "flexional": [
+                "F1p"
+            ],
+            "gram": "V",
+            "label": "\u00eeloterons",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:F1p"
+        },
+        "102": {
+            "flexional": [
+                "F3p"
+            ],
+            "gram": "V",
+            "label": "\u00eeloteront",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:F3p"
+        },
+        "103": {
+            "flexional": [
+                "P2s",
+                "S2s"
+            ],
+            "gram": "V",
+            "label": "\u00eelotes",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:P2s:S2s"
+        },
+        "104": {
+            "flexional": [
+                "P2p",
+                "Y2p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotez",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:P2p:Y2p"
+        },
+        "105": {
+            "flexional": [
+                "ms"
+            ],
+            "gram": "N",
+            "label": "\u00eelotier",
+            "lem": "",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:ms"
+        },
+        "106": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "\u00eelotiers",
+            "lem": "\u00eelotier",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:mp"
+        },
+        "107": {
+            "flexional": [
+                "I2p",
+                "S2p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotiez",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:I2p:S2p"
+        },
+        "108": {
+            "flexional": [
+                "I1p",
+                "S1p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotions",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:I1p:S1p"
+        },
+        "109": {
+            "flexional": [
+                "fs"
+            ],
+            "gram": "N",
+            "label": "\u00eeloti\u00e8re",
+            "lem": "\u00eelotier",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:fs"
+        },
+        "110": {
+            "flexional": [
+                "fp"
+            ],
+            "gram": "N",
+            "label": "\u00eeloti\u00e8res",
+            "lem": "\u00eelotier",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "N+z2:fp"
+        },
+        "111": {
+            "flexional": [
+                "P1p",
+                "Y1p"
+            ],
+            "gram": "V",
+            "label": "\u00eelotons",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:P1p:Y1p"
+        },
+        "112": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "\u00eelots",
+            "lem": "\u00eelot",
+            "semantic": [
+                "z1"
+            ],
+            "tags": "N+z1:mp"
+        },
+        "113": {
+            "flexional": [
+                "mp"
+            ],
+            "gram": "N",
+            "label": "\u00eelots directionnels",
+            "lem": "\u00eelot directionnel",
+            "semantic": [
+                "NA",
+                "Conc"
+            ],
+            "tags": "N+NA+Conc:mp"
+        },
+        "114": {
+            "flexional": [
+                "J1p"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e2mes",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:J1p"
+        },
+        "115": {
+            "flexional": [
+                "T3s"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e2t",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:T3s"
+        },
+        "116": {
+            "flexional": [
+                "J2p"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e2tes",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:J2p"
+        },
+        "117": {
+            "flexional": [
+                "J3p"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e8rent",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:J3p"
+        },
+        "118": {
+            "flexional": [
+                "Kms"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e9",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:Kms"
+        },
+        "119": {
+            "flexional": [
+                "Kfs"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e9e",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:Kfs"
+        },
+        "120": {
+            "flexional": [
+                "Kfp"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e9es",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:Kfp"
+        },
+        "121": {
+            "flexional": [
+                "Kmp"
+            ],
+            "gram": "V",
+            "label": "\u00eelot\u00e9s",
+            "lem": "\u00eeloter",
+            "semantic": [
+                "z2"
+            ],
+            "tags": "V+z2:Kmp"
+        }
+    }
+}
