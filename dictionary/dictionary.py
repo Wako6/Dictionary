@@ -1,6 +1,6 @@
 from .storage import Table
 from tinydb import Query
-from .storagekit import _contains, _compare_label, _get_synonyms_on, _get_external_synonyms
+from .storagekit import _contains, _get_synonyms_on, _get_external_synonyms
 
 
 class Dictionary:

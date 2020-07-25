@@ -1,5 +1,6 @@
 from tinydb import Query
 from .storage import Table
+import os
 
 """
     NUMBERS OF WORDS BY CATEGORY
@@ -47,6 +48,8 @@ from .storage import Table
 
 
 class Unitex:
+    """Class allow to handle a set of database like one dictionary"""
+
     CODES = dict()
     CODES['gram'] = {
             'A': 'adjectif',
@@ -99,47 +102,98 @@ class Unitex:
         'F': 'futur'
         }
 
+    """ Initialize the unitex dataset
+        @source : str : Folder name of the set of database
+                        (allow unitex annotation only)
+    """
     def __init__(self, source='unitex'):
         self._source = source
-        self.bdd = Table(source)
 
+        # Optimizations
+        self.table_name = None
+        self.bdd = None
+
+    """ Check if dataset contains one word
+        @str_word : str : Label of word
+    """
     def __contains__(self, str_word):
         bdd = self._getTableByWord(str_word)
         Word = Query()
         return bdd._db.contains(Word.label == str_word)
 
+    """ Access to all dataset easily by using self
+        @str_word : str : Label of word
+    """
     def __getitem__(self, str_word):
         bdd = self._getTableByWord(str_word)
         Word = Query()
         return bdd.find(Word.label == str_word)
 
+    """ Return path and name of dataset concerned
+        @str_word : str : Label of word
+    """
     def _getTableNameByWord(self, str_word):
         if str_word[0] == str_word[0].upper():
-            return self._source + '/name'
+            # str_word's first letter is major
+            return os.path.join(self._source, 'name')
         else:
             if str_word[0].isalpha():
-                return self._source + '/' + str_word[0]
+                return os.path.join(self._source, str_word[0])
 
+    """ Load the dataset concerned by str_word
+        @str_word : str : Label of word
+    """
     def _getTableByWord(self, str_word):
-        return Table(self._getTableNameByWord(str_word))
+        _tn = self.table_name
+        self.table_name = self._getTableNameByWord(str_word)
 
+        if _tn != self.table_name:
+            # Database requested is different
+            self.bdd = Table(self.table_name)
+
+        return self.bdd
+
+    """ Return label of the grammatical code
+        @code : str : unitex annotation
+    """
     def getGram(self, code):
         return self.CODES['gram'][code]
 
+    """ Return label of the semantic code
+        @code : str : unitex annotation
+    """
     def getSemantic(self, code):
         return self.CODES['semantic'][code]
 
+    """ Return label of the flexional code
+        @code : str : unitex annotation
+    """
     def getFlexional(self, code):
         return self.CODES['flexional'][code]
 
+    """ Return infinitive form of str_word
+        @str_word : str : Label of word
+    """
     def lemmatize(self, str_word):
+        if str_word not in self:
+            return None
+
         result = self[str_word][0]['lem']
         if result == '' or result is None:
             result = self[str_word][0]['label']
         return result
 
+    """ Return type of word
+        @str_word : str : Label of word
+    """
     def getType(self, str_word):
-        return self.getGram(self[str_word]['gram'])
+        if str_word not in self:
+            return None
+
+        return self.getGram(self[str_word][0]['gram'])
 
     def getTags(self, str_word):
+        if str_word not in self:
+            return None
+
         pass
