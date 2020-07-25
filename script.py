@@ -1,6 +1,8 @@
 from tinydb import Query
 # from tinydb import where
 from dictionary import Dictionary, Unitex
+from dictionary.storage import Table
+from os import path
 
 
 # d = Dictionary()
@@ -19,7 +21,7 @@ def parseDela():
     words = list()
     t = None
     _name = None
-    _prev_name = 'unitex/name'
+    _prev_name = path.join('unitex', 'name')
     # _i = 0
     with open('dela-fr-public.dic', encoding='utf-8', errors='ignore') as fp:
         line = fp.readline()
@@ -49,10 +51,10 @@ def parseDela():
 
             # _i += 1
             if word['label'][0] == word['label'][0].upper():
-                _name = 'unitex/name'
+                _name = path.join('unitex', 'name')
             else:
                 if word['label'][0].isalpha():
-                    _name = 'unitex/' + word['label'][0]
+                    _name = path.join('unitex', word['label'][0])
 
             if _prev_name == _name:
                 words.append(word)
@@ -68,6 +70,10 @@ def parseDela():
 
             # t.insert(word)
 
-u = Unitex()
+
+# parseDela()
+
+u = Unitex("unitex")
 # print(u['fais'])
-print(u.lemmatize('fais'))
+# print(u.lemmatize('fais'))
+print(u.getType('fais'))
