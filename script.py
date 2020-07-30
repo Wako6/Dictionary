@@ -1,4 +1,4 @@
-from tinydb import Query
+# from tinydb import Query
 # from tinydb import where
 from dictionary import Dictionary, Unitex
 from dictionary.storage import Table

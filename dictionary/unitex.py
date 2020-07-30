@@ -157,6 +157,9 @@ class Unitex:
         @code : Unitex annotation
     """
     def getGrammaticalCode(self, code: str):
+        if code not in self.CODES['gram']:
+            return None
+
         return self.CODES['gram'][code]
 
     """ Return label of the semantic code
