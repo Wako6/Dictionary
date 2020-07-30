@@ -74,6 +74,8 @@ def parseDela():
 # parseDela()
 
 u = Unitex("unitex")
-# print(u['fais'])
-# print(u.lemmatize('fais'))
-print(u.getType('fais'))
+# print(u['buveuses de bière'])
+# print(u.lemmatize('abaissées'))
+# print(u.getType('abaissées'))
+print(u.translateFlexionals(u.getFlexional('fais')))
+print(u.translateSemantics(u.getSemantic('fais')))

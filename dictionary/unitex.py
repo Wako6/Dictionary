@@ -114,36 +114,36 @@ class Unitex:
         self.bdd = None
 
     """ Check if dataset contains one word
-        @str_word : str : Label of word
+        @str_word : Label of word
     """
-    def __contains__(self, str_word):
+    def __contains__(self, str_word: str):
         bdd = self._getTableByWord(str_word)
         Word = Query()
         return bdd._db.contains(Word.label == str_word)
 
     """ Access to all dataset easily by using self
-        @str_word : str : Label of word
+        @str_word : Label of word
     """
-    def __getitem__(self, str_word):
+    def __getitem__(self, str_word: str):
         bdd = self._getTableByWord(str_word)
         Word = Query()
         return bdd.find(Word.label == str_word)
 
     """ Return path and name of dataset concerned
-        @str_word : str : Label of word
+        @str_word : Label of word
     """
-    def _getTableNameByWord(self, str_word):
+    def _getTableNameByWord(self, str_word: str):
         if str_word[0] == str_word[0].upper():
-            # str_word's first letter is major
+            # str_word's first letter is uppercase
             return os.path.join(self._source, 'name')
         else:
             if str_word[0].isalpha():
                 return os.path.join(self._source, str_word[0])
 
     """ Load the dataset concerned by str_word
-        @str_word : str : Label of word
+        @str_word : Label of word
     """
-    def _getTableByWord(self, str_word):
+    def _getTableByWord(self, str_word: str):
         _tn = self.table_name
         self.table_name = self._getTableNameByWord(str_word)
 
@@ -154,46 +154,113 @@ class Unitex:
         return self.bdd
 
     """ Return label of the grammatical code
-        @code : str : unitex annotation
+        @code : Unitex annotation
     """
-    def getGram(self, code):
+    def getGrammaticalCode(self, code: str):
         return self.CODES['gram'][code]
 
     """ Return label of the semantic code
-        @code : str : unitex annotation
+        @code : Unitex annotation
     """
-    def getSemantic(self, code):
+    def getSemanticCode(self, code: str):
+        if code not in self.CODES['semantic']:
+            return None
+
         return self.CODES['semantic'][code]
 
     """ Return label of the flexional code
-        @code : str : unitex annotation
+        @code : Unitex annotation
     """
-    def getFlexional(self, code):
+    def getFlexionalCode(self, code: str):
+        if code not in self.CODES['flexional']:
+            return None
+
         return self.CODES['flexional'][code]
 
     """ Return infinitive form of str_word
-        @str_word : str : Label of word
+        @str_word : Label of word
     """
-    def lemmatize(self, str_word):
+    def lemmatize(self, str_word: str):
+        # Check if Unitex database contain str_word
         if str_word not in self:
             return None
 
-        result = self[str_word][0]['lem']
-        if result == '' or result is None:
-            result = self[str_word][0]['label']
-        return result
+        result = self[str_word]
+        # Get lem of all result
+        ret = [res['lem'] for res in result]
+
+        if ret == [] or ret is None:
+            # In case if no lem found
+            ret = [lem['label'] for lem in result]
+
+        return ret
 
     """ Return type of word
-        @str_word : str : Label of word
+        @str_word : Label of word
     """
-    def getType(self, str_word):
+    def getType(self, str_word: str):
         if str_word not in self:
             return None
 
-        return self.getGram(self[str_word][0]['gram'])
+        result = self[str_word]
+        return [self.getGrammaticalCode(t['gram']) for t in result]
 
-    def getTags(self, str_word):
+    """ Return flexional of word
+        @str_word : Label of word
+    """
+    def getFlexional(self, str_word: str):
         if str_word not in self:
             return None
 
-        pass
+        result = self[str_word]
+        ret = list()
+        # Get all flexionals in result
+        for e in result:
+            ret += e['flexional']
+        # Remove duplicates value in ret List
+        return list(dict.fromkeys(ret))
+
+    """ Return semantic of word
+        @str_word : Label of word
+    """
+    def getSemantic(self, str_word: str):
+        if str_word not in self:
+            return None
+        # Get object word 
+        result = self[str_word]
+        ret = list()
+        for e in result:
+            # Keep semantic code
+            ret += e['semantic']
+        # Remove duplicates value from ret
+        return list(dict.fromkeys(ret))
+
+    """ Translate list of semantic codes
+        @semanticCodes : Semantic codes
+    """
+    def translateSemantics(self, semanticCodes: list):
+        ret = list()
+        for code in semanticCodes:
+            ret.append(self.getSemanticCode(code))
+
+        return ret
+
+    """ Translate a flexional code
+        @flexionalCode : Flexional code
+    """
+    def translateFlexional(self, flexionalCode: str):
+        ret = list()
+        for code in flexionalCode:
+            ret.append(self.getFlexionalCode(code))
+
+        return ret
+
+    """ Translate list of flexional codes
+        @flexionalCodes : Flexional codes
+    """
+    def translateFlexionals(self, flexionalCodes: list()):
+        ret = list()
+        for flexionalCode in flexionalCodes:
+            ret.append(self.translateFlexional(flexionalCode))
+
+        return ret
