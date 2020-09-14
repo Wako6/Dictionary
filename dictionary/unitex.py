@@ -1,6 +1,8 @@
 from tinydb import Query
 from .storage import Table
+from variables import Variables
 import os
+
 
 """
     NUMBERS OF WORDS BY CATEGORY
@@ -266,4 +268,53 @@ class Unitex:
         for flexionalCode in flexionalCodes:
             ret.append(self.translateFlexional(flexionalCode))
 
+        return ret
+
+    """ Return the word that matching with parameters
+        @lem : Lemmatization of the researched word
+        @gram : Grammatical of the researched word
+        @sem : Semantic of the researched word
+        @flex : Flexional of the researched word
+    """
+    def compose(self, lem: str, gram: str, sem: str, flex: str):
+        Word = Query()
+        request = None
+
+        def addRequest(query):
+            global request
+            request = ((request) & (query)) if request is not None else query
+
+        if lem is not None:
+            addRequest((Word.lem == lem))
+
+        if gram is not None:
+            addRequest((Word.gram == gram))
+
+        # if sem is not None:
+        #     addRequest((Word.semantic.any([sem])))
+
+        # if flex is not None:
+        #     addRequest((Word.flexional.any([flex]))
+
+        return self.search(request)
+
+    """ Search with an expression across datasets
+        @expression : Query Object Expression
+    """
+    def search(self, expression: Query):
+        save_table_name = self.table_name  # Save dataset
+        save_bdd = self.bdd
+
+        ret = list()
+        for _, _, files in os.walk(os.path.join(Variables.DATABASE_PATH, self._source)):
+            for filename in files:
+                if filename is None:
+                    continue
+
+                self.table_name = os.path.join(self._source, filename.split('.', 1)[0])
+                self.bdd = Table(self.table_name)
+                ret += self.bdd._db.search(expression)
+        # Reload previous used dataset
+        self.table_name = save_table_name
+        self.bdd = save_bdd
         return ret
