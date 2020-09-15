@@ -270,34 +270,6 @@ class Unitex:
 
         return ret
 
-    """ Return the word that matching with parameters
-        @lem : Lemmatization of the researched word
-        @gram : Grammatical of the researched word
-        @sem : Semantic of the researched word
-        @flex : Flexional of the researched word
-    """
-    def compose(self, lem: str, gram: str, sem: str, flex: str):
-        Word = Query()
-        request = None
-
-        def addRequest(query):
-            global request
-            request = ((request) & (query)) if request is not None else query
-
-        if lem is not None:
-            addRequest((Word.lem == lem))
-
-        if gram is not None:
-            addRequest((Word.gram == gram))
-
-        # if sem is not None:
-        #     addRequest((Word.semantic.any([sem])))
-
-        # if flex is not None:
-        #     addRequest((Word.flexional.any([flex]))
-
-        return self.search(request)
-
     """ Search with an expression across datasets
         @expression : Query Object Expression
     """
@@ -318,3 +290,46 @@ class Unitex:
         self.table_name = save_table_name
         self.bdd = save_bdd
         return ret
+
+    """ Return the word that matching with parameters
+        @lem : Lemmatization of the researched word
+        @gram : Grammatical of the researched word
+        @sem : list<str> : Semantic of the researched word
+        @flex : list<str> : Flexional of the researched word
+    """
+    def compose(self, lem: str,
+                gram: str,
+                sem: list = None,
+                flex: list = None,
+                sem_matching_func='any',
+                flex_matching_func='any'):
+        table = None  # Optimization working only with french words
+        Word = Query()
+        request = None
+
+        if lem is not None:
+            table = self._getTableByWord(lem)  # Optimization working only with french words
+            query = (Word.lem == lem)
+            request = query
+
+        if gram is not None:
+            query = (Word.gram == gram)
+            request = query if request is None else (request & query)
+
+        if sem is not None:
+            query = (Word.semantic.any(sem))
+            if sem_matching_func == 'all':
+                query = (Word.semantic.all(sem))
+            request = query if request is None else (request & query)
+
+        if flex is not None:
+            query = (Word.flexional.any(flex))
+            if flex_matching_func == 'all':
+                query = (Word.flexional.all(flex))
+            request = query if request is None else (request & query)
+
+        if table is None:
+            return self.search(request)
+        # Optimization working only with french words
+        else:
+            return table._db.search(request)
