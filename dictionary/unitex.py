@@ -1,5 +1,6 @@
 from tinydb import Query
 from .storage import Table
+from .unithread import UnitexSearch
 from variables import Variables
 import os
 
@@ -274,8 +275,7 @@ class Unitex:
         @expression : Query Object Expression
     """
     def search(self, expression: Query):
-        save_table_name = self.table_name  # Save dataset
-        save_bdd = self.bdd
+        thread_pool = list()
 
         ret = list()
         for _, _, files in os.walk(os.path.join(Variables.DATABASE_PATH, self._source)):
@@ -283,12 +283,17 @@ class Unitex:
                 if filename is None:
                     continue
 
-                self.table_name = os.path.join(self._source, filename.split('.', 1)[0])
-                self.bdd = Table(self.table_name)
-                ret += self.bdd._db.search(expression)
-        # Reload previous used dataset
-        self.table_name = save_table_name
-        self.bdd = save_bdd
+                thread = UnitexSearch(
+                    os.path.join(self._source, filename.split('.', 1)[0]),
+                    expression,
+                    ret
+                )
+                thread.start()
+                thread_pool.append(thread)
+
+        for thread in thread_pool:
+            thread.join()
+
         return ret
 
     """ Return the word that matching with parameters
