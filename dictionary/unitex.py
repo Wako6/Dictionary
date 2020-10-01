@@ -130,7 +130,7 @@ class Unitex:
     def __getitem__(self, str_word: str):
         bdd = self._getTableByWord(str_word)
         Word = Query()
-        return bdd.find(Word.label == str_word)
+        return bdd.find(Word.label == str_word.lower())
 
     """ Return path and name of dataset concerned
         @str_word : Label of word
@@ -189,15 +189,17 @@ class Unitex:
     def lemmatize(self, str_word: str):
         # Check if Unitex database contain str_word
         if str_word not in self:
-            return None
+            return [None]
 
         result = self[str_word]
-        # Get lem of all result
-        ret = [res['lem'] for res in result]
-
-        if ret == [] or ret is None:
-            # In case if no lem found
-            ret = [lem['label'] for lem in result]
+        ret = list()
+        for res in result:
+            if res['lem']:
+                # Get lem of all result
+                ret.append(res['lem'])
+            else:
+                # In case if no lem found
+                ret.append(res['label'])
 
         return ret
 
