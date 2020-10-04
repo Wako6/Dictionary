@@ -2,24 +2,29 @@
 import scrapy
 import re
 # from ..items import Dictionaryv2Item
-from .storage import Table
+from dictionary.storage import Table
 from tinydb import Query
 
 
 i = 0
+result_words = list()
+memory_w = dict()
+NB_WORDS = 181332
+
+
 class LarousseSpider(scrapy.Spider):
     name = 'larousse'
     allowed_domains = ['http://www.larousse.fr']
     start_urls = [
-            'http://www.larousse.fr/dictionnaires/francais/avoir/',
-            'http://www.larousse.fr/dictionnaires/francais/etre/',
-            'http://www.larousse.fr/dictionnaires/francais/faire/',
-            'http://www.larousse.fr/dictionnaires/francais/confectionner/',
-            'http://www.larousse.fr/dictionnaires/francais/apprêter/'
+            # 'http://www.larousse.fr/dictionnaires/francais/avoir/',
+            # 'http://www.larousse.fr/dictionnaires/francais/etre/',
+            # 'http://www.larousse.fr/dictionnaires/francais/faire/',
+            # 'http://www.larousse.fr/dictionnaires/francais/confectionner/',
+            # 'http://www.larousse.fr/dictionnaires/francais/apprêter/'
     ]
-    # current_search = None
+    WORDS = list()
     types = {}
-    # bdd = Table('dictionary')
+    bdd = Table('dictionary')
     counter = 0
 
     def start_requests(self):
@@ -29,14 +34,18 @@ class LarousseSpider(scrapy.Spider):
     # Load a list of words and inject them as URLs
     def get_urls(filename):
         with open(filename) as infile:
-            for word in infile:
-                # LarousseSpider.current_search = word
+            for word in infile.readlines():
+                # if word not in LarousseSpider.WORDS:
+                #     LarousseSpider.WORDS += word
+                # else:
+                #     continue
                 yield 'http://www.larousse.fr/dictionnaires/francais/' + word
 
     # start_urls += list(get_urls('datas/documents/words_part_1.txt'))
     # start_urls += list(get_urls('datas/documents/words_part_2.txt'))
     # start_urls += list(get_urls('datas/documents/words_part_3.txt'))
     # start_urls += list(get_urls('datas/documents/words_part_4.txt'))
+    start_urls += list(get_urls('..\\inf_words2.txt'))
 
     def parse(self, response):
         self.parsePage(response)
@@ -50,19 +59,24 @@ class LarousseSpider(scrapy.Spider):
 
     def parsePage(self, response):
         global i
+        global result_words
+        global memory_w
+        global NB_WORDS
         word = dict()
         word['label'] = response.css('h2.AdresseDefinition::text').get()
 
-        if word['label'] is None:
+        Word = Query()
+        contain_word = self.bdd._db.contains(Word.label == word['label']) or word['label'] in memory_w
+        if word['label'] is None or contain_word:
             # Trigger if an error occurs in the web content
-            error_file = open("error_words_searchv2.txt", "a")
+            # error_file = open("error_words_searchv2.txt", "a")
             # error_file.write(self.current_search)
-            error_file.close()
+            # error_file.close()
             # print(self.current_search + ' failed !')
             return
         i += 1
-        # print('[' + str(i)[:1] + ' ' + str(i)[1:] + '/5 027] ' + word['label'] + ' sucessed !')
-        word['ranking'] = i
+        print('[' + str(i)[:3] + ' ' + str(i)[3:] + '/' + str(NB_WORDS) + '] ' + word['label'] + ' sucessed !')
+        # word['ranking'] = i
         word['type'] = response.css('p.CatgramDefinition::text').get()
         word['sens'] = []
 
@@ -78,10 +92,10 @@ class LarousseSpider(scrapy.Spider):
                 self.parseDefinitions(response, word)
             # if section_name == 'Expressions':
             #     self.parseExpression(response, word)
-            #     # Print
-            #     # for expresion in word['expressions']:
-            #     #     print(expresion['address'])
-            #     #     if 'texts' in expresion: print('texts: ' + str(expresion['texts']))
+                # Print
+                # for expresion in word['expressions']:
+                #     print(expresion['address'])
+                #     if 'texts' in expresion: print('texts: ' + str(expresion['texts']))
             if section_name == 'Synonymes' or section_name == 'Synonymes et contraires':
                 self.parseSynonyms(response, word)
                 # Print
@@ -92,35 +106,42 @@ class LarousseSpider(scrapy.Spider):
                     # self.addSearchWords(sens['synonyms'])
             if section_name == 'Homonymes':
                 self.parseHomonyms(response, word)
-            #     # Print
-            #     # for homonym, catGramHomonym in word['homonyms']:
-            #     #     print(homonym + ', ' + catGramHomonym)
+                # Print
+                # for homonym, catGramHomonym in word['homonyms']:
+                #     print(homonym + ', ' + catGramHomonym)
             if section_name == 'Homonymes des variantes':
                 self.parseHomonymsVar(response, word)
-            #     # Print
-            #     # for address, homonymsVar in word['homonymsVar']:
-            #     #     print(address)
-            #     #     for homonym, catGramHomonym in homonymsVar:
-            #     #         print('   ' + homonym + ', ' + catGramHomonym)
+                # Print
+                # for address, homonymsVar in word['homonymsVar']:
+                #     print(address)
+                #     for homonym, catGramHomonym in homonymsVar:
+                #         print('   ' + homonym + ', ' + catGramHomonym)
             if section_name == 'Difficultés':
                 self.parseDifficulties(response, word)
-            #     # Print
-            #     # for d_type, d_block in word['difficulties']:
-            #     #     print(d_type)
-            #     #     print(d_block)
+                # Print
+                # for d_type, d_block in word['difficulties']:
+                #     print(d_type)
+                #     print(d_block)
             if section_name == 'Citations':
                 self.parseQuotes(response, word)
-            #     # for quote in word['quotes']:
-            #     #     print(quote['author'] + quote['infosAuthor'])
-            #     #     print(quote['text'])
-            #     #     print(quote['infos'])
-            #     #     print()
+                # for quote in word['quotes']:
+                #     print(quote['author'] + quote['infosAuthor'])
+                #     print(quote['text'])
+                #     print(quote['infos'])
+                #     print()
 
         # print(word)
         # print(json.dumps(word, indent=2))
 
+        result_words.append(word)
+        memory_w[word['label']] = None
         # self.bdd.insert(word)
         # yield {word['label']: word}
+
+        if len(result_words) == 80:
+            self.bdd._db.insert_multiple(result_words)
+            result_words = list()
+            memory_w = dict()
 
     def parseDefinitions(self, response, word):
         definition_list = response.css('li.DivisionDefinition')
@@ -134,7 +155,7 @@ class LarousseSpider(scrapy.Spider):
             _def = definition_block[0]
             _def = _def.split('.', 1)
             if '' in _def: _def.remove('')
-            
+
             if len(_def) > 1:
                 sens['tag'] = _def[0].strip()
                 sens['definition'] = _def[1].strip()

@@ -1,12 +1,13 @@
 
 import os
 from tinydb import TinyDB
+from variables import Variables
 
 
 # Pour fonctionner créer un répertoire 'datas'.
 def _data_path(table_name):
-    path = os.getcwd()
-    return os.path.join(path, 'datas', '{0}.json'.format(table_name))
+    path = Variables.PROJECT_PATH
+    return os.path.join(path, Variables.DATABASE_PATH, '{0}.json'.format(table_name))
 
 
 class Table:
@@ -18,7 +19,9 @@ class Table:
         self._db = TinyDB(path=_data_path(table_name),
                           sort_keys=True,
                           indent=4,
-                          separators=(',', ': '))
+                          separators=(',', ': '),
+                          encoding="utf-8",
+                          ensure_ascii=False)
         self._table_length = len(self._db.all())
 
     """vide la table"""
