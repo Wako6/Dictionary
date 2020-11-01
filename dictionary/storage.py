@@ -1,70 +1,70 @@
+# version : 1.0.0
 
 import os
 from tinydb import TinyDB
+
 from variables import Variables
 
-
-# Pour fonctionner créer un répertoire 'datas'.
-def _data_path(table_name):
-    path = Variables.PROJECT_PATH
-    return os.path.join(path, Variables.DATABASE_PATH, '{0}.json'.format(table_name))
+PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
+DATABASE_PATH = 'datas'
 
 
-class Table:
-    """ Class d'accès à la table de donnée
-        @table_name : string
-    """
-    def __init__(self, table_name):
-        self._name = table_name
-        self._db = TinyDB(path=_data_path(table_name),
-                          sort_keys=True,
-                          indent=4,
-                          separators=(',', ': '),
-                          encoding="utf-8",
-                          ensure_ascii=False)
-        self._table_length = len(self._db.all())
+class Table(TinyDB):
+    """ This class simplify using of TinyBD"""
 
-    """vide la table"""
-    def purge(self):
-        self._db.purge()
+    def __init__(self, table_name, *args, **kwargs):
+        """Initialize TinyBD with special parametrer
+            but can be overrided
 
-    """ajouter un objet à la table"""
-    def insert(self, obj):
-        self._db.insert(obj)
+            @table_name : string"""
+
+        if not table_name.endswith('.json'):
+            # Extension of data file is not
+            table_name = '{0}.json'.format(table_name)
+
+        self._path = os.path.join(
+            Variables.PROJECT_PATH,
+            Variables.DATABASE_PATH,
+            table_name
+        )
+        # Setting not configured arguments
+        kwargs['path'] = self._path
+        kwargs['sort_keys'] = kwargs['sort_keys'] if 'sort_keys' in kwargs else True
+        kwargs['indent'] = kwargs['indent'] if 'indent' in kwargs else 4
+        kwargs['separators'] = kwargs['separators'] if 'separators' in kwargs else (',', ': ')
+        kwargs['encoding'] = kwargs['encoding'] if 'encoding' in kwargs else 'utf-8'
+        kwargs['ensure_ascii'] = kwargs['ensure_ascii'] if 'ensure_ascii' in kwargs else False
+
+        super().__init__(*args, **kwargs)
+
+    def get_table_path(self):
+        """Return the database filename"""
+
+        return self._path
 
     def insert_obj(self, obj):
-        self._db.insert(obj.__repr__())
+        """Add an object to table"""
 
-    """ mise à jour d'un objet en base 
-    @value : dict{key: value} to update
-    @expression : QueryObject comparission
-    """
-    def update(self, value, expression):
-        self._db.update(value, expression)
+        self.insert(obj.__repr__())
 
-    """ mise à jour d'un objet en base si l'objet n'existe pas, c'est un insert 
-    @value : dict{key: value} to update
-    @expression : QueryObject comparission
-        """
-    def upsert(self, value, expression):
-        self._db.upsert(value, expression)
-    """ suppression d'une entrée en base"""
-    def remove(self, expresion):
-        self._db.remove(expresion)
+    def update_obj(self, obj, expression):
+        """update an object to table"""
+        self.update(obj.__repr__(), expression)
 
-    """ Cherche un/des objets selon le filtre
-    @expression : Query Object Expression
-    """
-    def find(self, expression):
-        return self._db.search(expression)
+    def upsert_obj(self, obj, expression):
+        """Update or Add if not exist an object to table"""
+        self.upsert(obj.__repr__(), expression)
 
-    """ retourne la list des éléments d'un champ
-    @datas : data List
-    @ fields_name : string : names of the columns to get"""
-    def get_fields(self, datas, fields_name):
+    def get_fields(self, datas, fields_name: list):
+        """ Returns the list of the elements of a field
+            @datas : data List
+            @fields_name : list<str> : names of the columns to get"""
+
         if len(fields_name) < 2:
+            # Only one row is asking
             return [r[fields_name[0]] for r in datas]
 
+        # Two or more rows are asking
         result = list()
         for row in datas:
             filtred_data = tuple()
@@ -72,7 +72,3 @@ class Table:
                 filtred_data += (row[label],)
             result.append(filtred_data)
         return result
-
-    """Renvoie toutes les entrées de la table"""
-    def all(self):
-        return self._db.all()

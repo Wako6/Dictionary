@@ -194,14 +194,14 @@ class Unitex:
         result = self[str_word]
         ret = list()
         for res in result:
-            if res['lem']:
+            if res['lem'] != '':
                 # Get lem of all result
                 ret.append(res['lem'])
             else:
                 # In case if no lem found
                 ret.append(res['label'])
 
-        return ret
+        return list(set(ret))
 
     """ Return type of word
         @str_word : Label of word
@@ -280,18 +280,23 @@ class Unitex:
         thread_pool = list()
 
         ret = list()
-        for _, _, files in os.walk(os.path.join(Variables.DATABASE_PATH, self._source)):
-            for filename in files:
-                if filename is None:
-                    continue
+        files = None
 
-                thread = UnitexSearch(
-                    os.path.join(self._source, filename.split('.', 1)[0]),
-                    expression,
-                    ret
-                )
-                thread.start()
-                thread_pool.append(thread)
+        for _, _, fs in os.walk(os.path.join(Variables.DATABASE_PATH, self._source)):
+            files = fs
+            break
+
+        for filename in files:
+            if filename is None:
+                continue
+
+            thread = UnitexSearch(
+                os.path.join(self._source, filename.split('.', 1)[0]),
+                expression,
+                ret
+            )
+            thread.start()
+            thread_pool.append(thread)
 
         for thread in thread_pool:
             thread.join()
@@ -340,3 +345,17 @@ class Unitex:
         # Optimization working only with french words
         else:
             return table._db.search(request)
+
+    def all_words(self):
+        result = list()
+        files = None
+
+        for _, _, fs in os.walk(os.path.join(Variables.DATABASE_PATH, self._source)):
+            files = fs
+            break
+
+        for f in files:
+            bdd = Table(os.path.join(self._source, f.split('.', 1)[0]))
+            result += [word['label'] for word in bdd.all()]
+
+        return result
