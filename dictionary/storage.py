@@ -3,28 +3,27 @@
 import os
 from tinydb import TinyDB
 
-from variables import Variables
-
-PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
-DATABASE_PATH = 'datas'
+import settings
 
 
 class Table(TinyDB):
-    """ This class simplify using of TinyBD"""
+    """This class simplify using of TinyBD."""
 
     def __init__(self, table_name, *args, **kwargs):
         """Initialize TinyBD with special parametrer
-            but can be overrided
+        but can be overrided.
 
-            @table_name : string"""
+        *table_name : string
+
+        """
 
         if not table_name.endswith('.json'):
             # Extension of data file is not
             table_name = '{0}.json'.format(table_name)
 
         self._path = os.path.join(
-            Variables.PROJECT_PATH,
-            Variables.DATABASE_PATH,
+            settings.PROJECT_PATH,
+            settings.DATABASE_PATH,
             table_name
         )
         # Setting not configured arguments
@@ -38,27 +37,30 @@ class Table(TinyDB):
         super().__init__(*args, **kwargs)
 
     def get_table_path(self):
-        """Return the database filename"""
+        """Return the database filename."""
 
         return self._path
 
     def insert_obj(self, obj):
-        """Add an object to table"""
+        """Add an object to table."""
 
         self.insert(obj.__repr__())
 
     def update_obj(self, obj, expression):
-        """update an object to table"""
+        """Update an object to table."""
         self.update(obj.__repr__(), expression)
 
     def upsert_obj(self, obj, expression):
-        """Update or Add if not exist an object to table"""
+        """Update or Add if not exist an object to table."""
         self.upsert(obj.__repr__(), expression)
 
     def get_fields(self, datas, fields_name: list):
-        """ Returns the list of the elements of a field
-            @datas : data List
-            @fields_name : list<str> : names of the columns to get"""
+        """Returns the list of the elements of a field.
+
+        *datas : data List
+        *fields_name : list<str> : names of the columns to get
+
+        """
 
         if len(fields_name) < 2:
             # Only one row is asking

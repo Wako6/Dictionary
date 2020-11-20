@@ -1,12 +1,11 @@
 # -*- coding: UTF-8 -*-
-
 from tinydb import Query
-# from tinydb import where
-from dictionary import Unitex, Dictionary
+from dictionary import Dictionary
 from dictionary.storage import Table
 import os
-from dictionary.tools import _contains
-from variables import Variables
+# from dictionary.tools import _contains
+import settings
+import time
 
 
 def parseDela():
@@ -69,17 +68,18 @@ if __name__ == '__main__':
     d = Dictionary()
     result = d.compose(
         'avoir',
-        gram='verbe',
-        sem=['langage courant'],
-        flex=['1st personne']
-
+        type='verbe',
+        flexional=[
+                'présent de l’indicatif',
+                '1st personne',
+                'singulier'
+        ]
     )
-
-    print([r['label'] for r in result])
-    print('\n')
+    print([d.beautify(word) for word in result])
 
     # print('véhicule' in d)
-    # print(d['préparer'])
+    # print(d.beautify(d['avoir']))
+    # print([d.beautify(word) for word in d.find('avoir', type='verbe')])
     # for word in d:
     #     print(word['label'])
 
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
     # For test Unitex Class
     #
-    u = Unitex("unitex")
+    # u = Unitex("unitex")
     # print(u.lemmatize('Prépare'))
 
     # print(u['buveuses de bière'])
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
     def data_treatment(filename, memory=list()):
         file_path = os.path.join('datas', 'documents', filename)
-        abs_file_path = os.path.join(Variables.PROJECT_PATH, file_path)
+        abs_file_path = os.path.join(settings.PROJECT_PATH, file_path)
         lines = None
 
         with open(abs_file_path, 'r', encoding='utf-8', errors='ignore') as f:

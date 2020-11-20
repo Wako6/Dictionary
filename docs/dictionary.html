@@ -1,0 +1,1804 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.1" />
+<title>dictionary.dictionary API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>dictionary.dictionary</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import json
+import requests
+import asyncio
+import time
+import threading
+from contextlib import suppress
+
+import settings
+from .local_dictionary import LocalDictionary
+
+
+class Dictionary():
+    &#34;&#34;&#34; This class handle a database of words
+        with them meanings, synonyms ans others informations
+        (By default total: 44411 words)
+
+        label: str: Frequent argument that reference word label&#34;&#34;&#34;
+
+    # Struture of get_server_state() return
+    server_state_model = {
+        &#39;server host&#39;: settings.DICTIONARY_API_HOST,
+        &#39;connected&#39;: False,
+        &#39;upload speed&#39;: None,
+        &#39;download speed&#39;: None
+    }
+    _is_pinging = False
+    server_infos = None
+
+    def __init__(self, path=&#39;dictionary&#39;, optimize=True):
+        &#34;&#34;&#34;Create or load a new dictionary.
+
+        *[path] -- Name of database
+        *[optimize] -- Optimize size of local database
+
+        &#34;&#34;&#34;
+        if not path:
+            raise TypeError(&#39;invalid path argument&#39;)
+
+        self._name = path
+        self._local_db = LocalDictionary(path)
+        self._path = self._local_db.get_table_path()
+
+        self._headers = {&#39;Content-Type&#39;: &#39;application/json&#39;}
+        self._model = LocalDictionary.DEFAULT_MODEL
+        self._optimize = optimize
+
+        self._async_loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(self._async_loop)
+        self._ping = None
+
+        if Dictionary.server_infos is None:
+            Dictionary.server_infos = dict(Dictionary.server_state_model)
+            self.get_server_state()  # Get server state
+
+    def __del__(self):
+        &#34;&#34;&#34;Function called when instance is delete.&#34;&#34;&#34;
+        # Close the local database
+        self._local_db.close()
+
+        # If this instance launch a pinging to server
+        if self._ping is not None and self._ping[0].is_alive():
+            # Stop the thread
+            self._ping[1].set()
+
+        # Let&#39;s also cancel all running tasks:
+        pending = asyncio.all_tasks(self._async_loop)
+        for task in pending:
+            # Now we should await task to execute it&#39;s cancellation.
+            # Cancelled task raises asyncio.CancelledError
+            # that we can suppress:
+            with suppress(asyncio.CancelledError):
+                self._async_loop.run_until_complete(task)
+        self._async_loop.close()
+
+    def __contains__(self, word):
+        &#34;&#34;&#34;Return if word exist in database.
+
+        *word: str/dict: Label or dict with &#39;label&#39; key
+
+        &#34;&#34;&#34;
+        if isinstance(word, str):
+            return len(self.find(label=word, all=True)) &gt; 0
+        elif isinstance(word, dict):
+            return len(self.find(all=True, **word)) &gt; 0
+        else:
+            return False  # word type not expected
+
+    def __getitem__(self, label: str):
+        &#34;&#34;&#34;This return only one result.
+
+        *label: Label of searching word
+
+        &#34;&#34;&#34;
+        result = self.find(label, type=None)
+
+        if result:
+            # Found something and get first result
+            result = result[0]
+
+        return result
+
+    def get_name(self):
+        &#34;&#34;&#34;Return name of used database.&#34;&#34;&#34;
+
+        return self._name
+
+    def get_server_state(self):
+        &#34;&#34;&#34;Return infos about server state.
+
+        Returned infos is a dict with follow keys:
+        *server host -- Name or IP value of host
+        *connected -- State of server
+        *upload speed -- If &#39;connected&#39; upload speed
+        *download speed -- If &#39;connected&#39; dowload speed
+
+        &#34;&#34;&#34;
+        # Init the return value
+        ret = dict(Dictionary.server_state_model)
+
+        start_time = time.time()
+        # Ping server and convert its returned value
+        ping_time = float(
+            self._async_loop.run_until_complete(
+                self._fetch(&#39;ping&#39;)
+            ) or 0
+        ) or None
+
+        end_time = time.time()
+
+        if ping_time:
+            # Ping success
+            ret[&#39;connected&#39;] = True
+            ret[&#39;upload speed&#39;] = ping_time - start_time
+            ret[&#39;download speed&#39;] = end_time - ping_time
+        # Save status un class for others instances know about server status
+        Dictionary.server_infos = ret
+
+        return ret
+
+    def find(self, label: str = None, all=False, **kwargs):
+        &#34;&#34;&#34;Return a list of results that matching with label/type.
+
+        *[label] -- Label of searching word, if None try to get in kwargs
+        *[all] -- If True, find will add API Dictionary whatever result
+        *[kwargs] -- Can be used to search with a &#39;word&#39; object
+
+        &#34;&#34;&#34;
+        if label is None:
+            if &#39;label&#39; in kwargs:
+                # kwargs seems to be like word
+                label = kwargs[&#39;label&#39;]
+            else:
+                # Impossible to find something
+                return None
+
+        if &#39;type&#39; not in kwargs:
+            # Type is filled
+            kwargs[&#39;type&#39;] = None
+
+        ret = list()
+        # Request of API Dictioanry
+        fetch_future = None
+        if Dictionary.server_infos[&#39;connected&#39;]:
+            # Request the external database
+            fetch_future = asyncio.ensure_future(
+                self._fetch(&#39;unitex&#39;, label, gram=kwargs[&#39;type&#39;]),
+                loop=self._async_loop
+            )
+        elif not Dictionary._is_pinging:
+            self._test_connection()
+        # Check the local database
+        result = self._local_db.find(
+                self._create_word(**{
+                    &#39;label&#39;: label,
+                    &#39;type&#39;: kwargs[&#39;type&#39;]
+                })
+        )
+
+        if result:
+            # Word found in local
+            ret += result
+        if fetch_future:
+            # Get result of request
+            results = self._async_loop.run_until_complete(fetch_future) or []
+            if not result or all:
+                for result in results:
+                    # result[&#39;lem&#39;] = result[&#39;lem&#39;] or result[&#39;label&#39;]
+                    result[&#39;type&#39;] = result[&#39;gram&#39;] or None
+                    word = self._create_word(**result)
+                    ret.append(word)  # Add result to return value
+
+        return ret or None
+
+    def compose(self, lem: str, **kwargs):
+        &#34;&#34;&#34;Allow to find words according to this infinitive
+        and other specifications.
+
+        *lem -- Infinitive form of searched word
+        *[type] -- Type of word that need to match to
+        *[semantic] -- List of semantic that need to match to
+        *[flexional] -- List of flexional that need to match to
+
+        &#34;&#34;&#34;
+        # Initialize additionals matching parameters
+        param = dict()
+        if &#39;type&#39; in kwargs:
+            param[&#39;gram&#39;] = kwargs[&#39;type&#39;]
+        if &#39;semantic&#39; in kwargs:
+            param[&#39;semantic&#39;] = kwargs[&#39;semantic&#39;]
+        if &#39;flexional&#39; in kwargs:
+            param[&#39;flexional&#39;] = kwargs[&#39;flexional&#39;]
+        # Get results
+        fetch_future = None
+        if Dictionary.server_infos[&#39;connected&#39;]:
+            # Request the external database
+            fetch_future = asyncio.ensure_future(
+                self._fetch(
+                    &#39;unitex&#39;,
+                    &#39;compose&#39;,
+                    lem=lem,
+                    **param
+                ),
+                loop=self._async_loop
+            )
+        elif not Dictionary._is_pinging:
+            self._test_connection()
+
+        ret = list()
+        # Check the local database
+        result = self._local_db.find(
+                self._create_word(**{
+                    &#39;lem&#39;: lem,
+                    **param
+                })
+        )
+
+        if result:
+            ret += result
+        if fetch_future:
+            # Get result from request
+            results = self._async_loop.run_until_complete(fetch_future) or []
+            for result in results:
+                result[&#39;lem&#39;] = result[&#39;lem&#39;] or result[&#39;label&#39;]
+                word = self._create_word(**result)
+                ret.append(word)  # Add result to return value
+
+        return ret
+
+    def get_infos_on(self, word: dict):
+        &#34;&#34;&#34;Get definitions, synonyms, and others datas on &#39;word&#39;.
+
+        *word -- One result of find() or __getitem__()
+
+        &#34;&#34;&#34;
+        if not Dictionary.server_infos[&#39;connected&#39;]:
+            # Cannot access to extarnal database
+            self._test_connection()
+            return
+        elif &#39;isFetched&#39; in word and word[&#39;isFetched&#39;]:
+            # This world is already fetched
+            return
+
+        # Request the datas from internet
+        fetch_future = self._async_loop.ensure_future(
+            self._fetch(
+                &#39;dictionary&#39;,
+                word[&#39;lem&#39;] or word[&#39;label&#39;],
+                type=word[&#39;type&#39;]
+            ),
+            loop=self._async_loop
+        )
+        # Get result of request
+        results = self._async_loop.run_until_complete(fetch_future) or []
+        for result in results:
+            result[&#39;isFetched&#39;] = True
+            self.update(
+                result,
+                word,
+                overwrite=False,
+                insertable=False
+            )
+
+    def beautify(self, word: dict):
+        &#34;&#34;&#34;Return word repr, it remove keys with empty value.
+
+        *word -- One result of find() or __getitem__()
+
+        &#34;&#34;&#34;
+        if word is None:
+            return None
+
+        ret = dict()
+        for k in self._model.keys():
+            if word[k]:  # Parse keys with non-empty value
+                ret[k] = word[k]
+
+        if word[&#39;isPersistent&#39;]:
+            del ret[&#39;_id&#39;]
+            del ret[&#39;isPersistent&#39;]
+
+        return ret
+
+    def insert(self, force=False, **kwargs):
+        &#34;&#34;&#34;Save a new word in the database and return it.
+
+        *word -- One result of find() or __getitem__()
+        *[force] -- If True and word is already exist, insert will
+                    make a copy and save it
+        *[kwargs] -- Others attribute of word
+
+        &#34;&#34;&#34;
+        if &#39;label&#39; not in kwargs or not kwargs[&#39;label&#39;]:
+            raise KeyError(&#34;no &#39;label&#39; found, cannot insert this word&#34;)
+
+        word = self._create_word(**kwargs)
+
+        if word[&#39;isPersistent&#39;]:
+            if not force:
+                # Can not insert, it seems to already be in the database
+                try:
+                    # Touch word
+                    self._local_db.find(word)
+                except Exception as e:
+                    raise e
+                finally:
+                    return
+            # Force the insertion
+            word[&#39;isPersistent&#39;] = False
+
+        # Insert in database
+        self._local_db.insert(word)
+
+        return word
+
+    def update(self, kw: dict, word: dict, overwrite=True, insertable=True):
+        &#34;&#34;&#34;Allow to update some field of &#39;word&#39;.
+
+        *kw -- Keys, Values to update
+        *word -- One result of find() or __getitem__()
+        *[overwrite] -- Replace existing value by new value, else try to add it
+        *[insertable] -- Save it in database if True
+
+        &#34;&#34;&#34;
+        tmp_kw = dict(kw)
+        # Control is &#39;_id&#39; and &#39;isPersistent&#39; try to be manually update
+        if &#39;_id&#39; in kw:
+            del tmp_kw[&#39;_id&#39;]
+        if &#39;isPersistent&#39; in kw:
+            del tmp_kw[&#39;isPersistent&#39;]
+
+        if overwrite:
+            # Replace values
+            for key in tmp_kw.keys():
+                if key in word:
+                    word[key] = kw[key]
+        else:
+            # Try to adding value
+            self._copy_word(
+                    tmp_kw,
+                    word,
+                    exceptions=[
+                        &#39;label&#39;,
+                        &#39;type&#39;
+                    ]
+                )
+
+        if word[&#39;isPersistent&#39;]:
+            # Update database
+            self._local_db.update(word, word)
+        elif insertable:
+            # Insert the update in the database
+            self._local_db.insert(word)
+
+    def add_sens(
+        self, word: dict, definition: str,
+        examples: list = [], synonyms: list = []
+    ):
+        &#34;&#34;&#34;Insert a sens into word.
+
+        *word -- One result of find() or __getitem__()
+        *definition -- Sens&#39; description
+        *[examples] -- List of examples
+        *[synonyms] -- List of synonyms
+
+        &#34;&#34;&#34;
+        # Initialize sens structure
+        sens = {
+            &#39;definition&#39;: definition,
+            &#39;examples&#39;: examples,
+            &#39;synonyms&#39;: synonyms
+        }
+
+        self.update({&#39;sens&#39;: [sens]}, word, overwrite=False)
+
+    def add_quote(
+        self, word: dict, quote: str,
+        author: str = None, infos: str = None, infosAuthor: str = None
+    ):
+        &#34;&#34;&#34;Insert a quote into word.
+
+        *word -- One result of find() or __getitem__()
+        *quote -- The quote
+        *[author] -- Author name
+        *[infos] -- Infos on the quote
+        *[infosAuthor] -- Infos author&#39;s quote
+
+        &#34;&#34;&#34;
+        # Initialize sens structure
+        quote = {
+            &#39;text&#39;: quote,
+            &#39;author&#39;: author,
+            &#39;infos&#39;: infos,
+            &#39;infosAuthor&#39;: infosAuthor
+        }
+
+        self.update({&#39;quotes&#39;: [quote]}, word, overwrite=False)
+
+    def add_difficulty(self, word: dict, d_type: str, d_text: str):
+        &#34;&#34;&#34;Insert a difficulty into word.
+
+        *word -- One result of find() or __getitem__()
+        *d_type -- Type of the difficulty
+        *d_text -- Description of difficulty
+
+        &#34;&#34;&#34;
+        # Initialize sens structure
+        difficulty = {
+            &#39;type&#39;: d_type,
+            &#39;text&#39;: d_text
+        }
+
+        self.update({&#39;difficulties&#39;: [difficulty]}, word, overwrite=False)
+
+    def get_group_of(self, word: dict):
+        &#34;&#34;&#34;[WARNING] Return synonyms group of word.
+        (Coming soon...)
+
+        *word -- One result of find() or __getitem__()
+
+        &#34;&#34;&#34;
+        print(&#39;[WARNING] This function is in contruction ...&#39;)
+        pass
+
+    def _create_word(self, **kwargs):
+        &#34;&#34;&#34;Create and init structure of word.
+
+        *[kwargs] -- Attributes of word
+
+        &#34;&#34;&#34;
+        new_word = dict(self._model)
+        # Initialize values of word according to parameters
+        for k in kwargs.keys():
+            new_word[k] = kwargs[k]
+
+        return new_word
+
+    def _get_srv_avg_latence(self, word_list: list = None):
+        &#34;&#34;&#34;Calculate average latence to request.
+
+        *word_list] -- List of word to search on external database
+                       for the calculation
+        
+        &#34;&#34;&#34;
+        if not Dictionary.server_infos[&#39;connected&#39;]:
+            # Cannot access to the external database
+            return None
+
+        if not word_list:
+            # No word list specified
+            word_list = [
+                &#39;dictionnaire&#39;,
+                &#39;ranger&#39;,
+                &#39;être&#39;,
+                &#39;indispensable&#39;
+            ]
+
+        start_time = time.time()
+        for label in word_list:
+            # Request extarnal database
+            asyncio.run(
+                self._fetch(&#39;dictionary&#39;, label)
+            )
+
+        return (time.time() - start_time) / len(word_list)
+
+    def _copy_word(self, word_src, word_dst, exceptions=[]):
+        &#34;&#34;&#34;Update a word by adding values if possible else replace it.&#34;&#34;&#34;
+        for k, v in word_src.items():
+            if k in exceptions:
+                # key must not be update
+                continue
+            if k in word_dst:
+                if not isinstance(v, type(word_dst[k])):
+                    # Not the same type
+                    word_dst[k] = v
+                elif isinstance(v, list):
+                    word_dst[k] += v
+                elif isinstance(v, dict):
+                    word_dst[k] = word_dst[k] | v
+                else:
+                    # Cannot add the value
+                    word_dst[k] = v
+            else:
+                # Add value
+                word_dst[k] = v
+
+    async def _fetch(self, *args, **kwargs):
+        &#34;&#34;&#34;Allow to request external server.&#34;&#34;&#34;
+        def kwargs_to_url(key, arg):
+            &#34;&#34;&#34;Translate kwargs argument in url syntax.&#34;&#34;&#34;
+            try:
+                arg = arg.strip()
+            except Exception:
+                pass
+            return &#39;{}={}&#39;.format(key, arg)
+
+        # Initialize additionals str_kwargs paramaters (kwargs)
+        str_kwargs = list()
+        # Translate kwargs argument in url syntax
+        for k, arg in kwargs.items():
+            if isinstance(arg, list):
+                for elem in arg:
+                    str_kwargs.append(kwargs_to_url(k, elem))
+            else:
+                str_kwargs.append(kwargs_to_url(k, arg))
+
+        str_kwargs = &#39;?{}&#39;.format(
+                    &#39;&amp;&#39;.join(str_kwargs)
+                )
+        # Construct the URL for request API
+        api_url = &#39;{}/{}{}&#39;.format(
+            settings.DICTIONARY_API_URL,
+            &#39;/&#39;.join(args),
+            str_kwargs if str_kwargs != &#39;?&#39; else &#39;&#39;
+        )
+        try:
+            # Request the API Dictionary
+            response = requests.get(api_url, headers=self._headers)
+
+            if response.status_code == 200:
+                # API response with no error
+                return json.loads(response.content.decode(&#39;utf-8&#39;))
+        except requests.exceptions.ConnectionError:
+            pass
+
+        Dictionary.server_infos[&#39;connected&#39;] = False
+        self._test_connection()
+
+        return None
+
+    def _test_connection(self):
+        &#34;&#34;&#34;Allow to launch a process that try to access to server.&#34;&#34;&#34;
+        if Dictionary.server_infos[&#39;connected&#39;] or Dictionary._is_pinging:
+            # Is already connected or pinging
+            return
+
+        Dictionary._is_pinging = True
+        self._ping_server()
+
+    def _ping_server(self):
+        &#34;&#34;&#34;Allow to initialize pinging thread and start it.&#34;&#34;&#34;
+        def _ping_server_aux(e):
+            connected = False
+            waiting_time = 1  # Seconds
+
+            while not e.isSet():
+                # Ping the server
+                ping_time = float(
+                    asyncio.run(
+                        self._fetch(&#39;ping&#39;)
+                    ) or 0
+                ) or None
+                connected = ping_time is not None
+
+                if connected:
+                    # Connection is etablished with sucess
+                    e.set()
+                    Dictionary.server_infos[&#39;connected&#39;] = True
+                    break
+                # Sleep and wait a potential signal
+                e.wait(waiting_time)
+                waiting_time *= (12 / 9)  # Extend sleeping time
+
+            Dictionary._is_pinging = False
+
+            if self._optimize:
+                # Calculate speed of server requesting (by default 4 words)
+                server_rq_speed = self._get_srv_avg_latence()
+                # Set find time optimization
+                self._local_db.find_time_opti = server_rq_speed
+
+        event = threading.Event()  # Init the stopping event
+        thread = threading.Thread(  # Create the pinging thread
+            name=&#39;ping-server&#39;,
+            target=_ping_server_aux,
+            args=(event, )
+        )
+        self._ping = (thread, event)
+        thread.setDaemon(True)
+        thread.start()</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="dictionary.dictionary.Dictionary"><code class="flex name class">
+<span>class <span class="ident">Dictionary</span></span>
+<span>(</span><span>path='dictionary', optimize=True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>This class handle a database of words
+with them meanings, synonyms ans others informations
+(By default total: 44411 words)</p>
+<p>label: str: Frequent argument that reference word label</p>
+<p>Create or load a new dictionary.</p>
+<p><em>[path] &ndash; Name of database
+</em>[optimize] &ndash; Optimize size of local database</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Dictionary():
+    &#34;&#34;&#34; This class handle a database of words
+        with them meanings, synonyms ans others informations
+        (By default total: 44411 words)
+
+        label: str: Frequent argument that reference word label&#34;&#34;&#34;
+
+    # Struture of get_server_state() return
+    server_state_model = {
+        &#39;server host&#39;: settings.DICTIONARY_API_HOST,
+        &#39;connected&#39;: False,
+        &#39;upload speed&#39;: None,
+        &#39;download speed&#39;: None
+    }
+    _is_pinging = False
+    server_infos = None
+
+    def __init__(self, path=&#39;dictionary&#39;, optimize=True):
+        &#34;&#34;&#34;Create or load a new dictionary.
+
+        *[path] -- Name of database
+        *[optimize] -- Optimize size of local database
+
+        &#34;&#34;&#34;
+        if not path:
+            raise TypeError(&#39;invalid path argument&#39;)
+
+        self._name = path
+        self._local_db = LocalDictionary(path)
+        self._path = self._local_db.get_table_path()
+
+        self._headers = {&#39;Content-Type&#39;: &#39;application/json&#39;}
+        self._model = LocalDictionary.DEFAULT_MODEL
+        self._optimize = optimize
+
+        self._async_loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(self._async_loop)
+        self._ping = None
+
+        if Dictionary.server_infos is None:
+            Dictionary.server_infos = dict(Dictionary.server_state_model)
+            self.get_server_state()  # Get server state
+
+    def __del__(self):
+        &#34;&#34;&#34;Function called when instance is delete.&#34;&#34;&#34;
+        # Close the local database
+        self._local_db.close()
+
+        # If this instance launch a pinging to server
+        if self._ping is not None and self._ping[0].is_alive():
+            # Stop the thread
+            self._ping[1].set()
+
+        # Let&#39;s also cancel all running tasks:
+        pending = asyncio.all_tasks(self._async_loop)
+        for task in pending:
+            # Now we should await task to execute it&#39;s cancellation.
+            # Cancelled task raises asyncio.CancelledError
+            # that we can suppress:
+            with suppress(asyncio.CancelledError):
+                self._async_loop.run_until_complete(task)
+        self._async_loop.close()
+
+    def __contains__(self, word):
+        &#34;&#34;&#34;Return if word exist in database.
+
+        *word: str/dict: Label or dict with &#39;label&#39; key
+
+        &#34;&#34;&#34;
+        if isinstance(word, str):
+            return len(self.find(label=word, all=True)) &gt; 0
+        elif isinstance(word, dict):
+            return len(self.find(all=True, **word)) &gt; 0
+        else:
+            return False  # word type not expected
+
+    def __getitem__(self, label: str):
+        &#34;&#34;&#34;This return only one result.
+
+        *label: Label of searching word
+
+        &#34;&#34;&#34;
+        result = self.find(label, type=None)
+
+        if result:
+            # Found something and get first result
+            result = result[0]
+
+        return result
+
+    def get_name(self):
+        &#34;&#34;&#34;Return name of used database.&#34;&#34;&#34;
+
+        return self._name
+
+    def get_server_state(self):
+        &#34;&#34;&#34;Return infos about server state.
+
+        Returned infos is a dict with follow keys:
+        *server host -- Name or IP value of host
+        *connected -- State of server
+        *upload speed -- If &#39;connected&#39; upload speed
+        *download speed -- If &#39;connected&#39; dowload speed
+
+        &#34;&#34;&#34;
+        # Init the return value
+        ret = dict(Dictionary.server_state_model)
+
+        start_time = time.time()
+        # Ping server and convert its returned value
+        ping_time = float(
+            self._async_loop.run_until_complete(
+                self._fetch(&#39;ping&#39;)
+            ) or 0
+        ) or None
+
+        end_time = time.time()
+
+        if ping_time:
+            # Ping success
+            ret[&#39;connected&#39;] = True
+            ret[&#39;upload speed&#39;] = ping_time - start_time
+            ret[&#39;download speed&#39;] = end_time - ping_time
+        # Save status un class for others instances know about server status
+        Dictionary.server_infos = ret
+
+        return ret
+
+    def find(self, label: str = None, all=False, **kwargs):
+        &#34;&#34;&#34;Return a list of results that matching with label/type.
+
+        *[label] -- Label of searching word, if None try to get in kwargs
+        *[all] -- If True, find will add API Dictionary whatever result
+        *[kwargs] -- Can be used to search with a &#39;word&#39; object
+
+        &#34;&#34;&#34;
+        if label is None:
+            if &#39;label&#39; in kwargs:
+                # kwargs seems to be like word
+                label = kwargs[&#39;label&#39;]
+            else:
+                # Impossible to find something
+                return None
+
+        if &#39;type&#39; not in kwargs:
+            # Type is filled
+            kwargs[&#39;type&#39;] = None
+
+        ret = list()
+        # Request of API Dictioanry
+        fetch_future = None
+        if Dictionary.server_infos[&#39;connected&#39;]:
+            # Request the external database
+            fetch_future = asyncio.ensure_future(
+                self._fetch(&#39;unitex&#39;, label, gram=kwargs[&#39;type&#39;]),
+                loop=self._async_loop
+            )
+        elif not Dictionary._is_pinging:
+            self._test_connection()
+        # Check the local database
+        result = self._local_db.find(
+                self._create_word(**{
+                    &#39;label&#39;: label,
+                    &#39;type&#39;: kwargs[&#39;type&#39;]
+                })
+        )
+
+        if result:
+            # Word found in local
+            ret += result
+        if fetch_future:
+            # Get result of request
+            results = self._async_loop.run_until_complete(fetch_future) or []
+            if not result or all:
+                for result in results:
+                    # result[&#39;lem&#39;] = result[&#39;lem&#39;] or result[&#39;label&#39;]
+                    result[&#39;type&#39;] = result[&#39;gram&#39;] or None
+                    word = self._create_word(**result)
+                    ret.append(word)  # Add result to return value
+
+        return ret or None
+
+    def compose(self, lem: str, **kwargs):
+        &#34;&#34;&#34;Allow to find words according to this infinitive
+        and other specifications.
+
+        *lem -- Infinitive form of searched word
+        *[type] -- Type of word that need to match to
+        *[semantic] -- List of semantic that need to match to
+        *[flexional] -- List of flexional that need to match to
+
+        &#34;&#34;&#34;
+        # Initialize additionals matching parameters
+        param = dict()
+        if &#39;type&#39; in kwargs:
+            param[&#39;gram&#39;] = kwargs[&#39;type&#39;]
+        if &#39;semantic&#39; in kwargs:
+            param[&#39;semantic&#39;] = kwargs[&#39;semantic&#39;]
+        if &#39;flexional&#39; in kwargs:
+            param[&#39;flexional&#39;] = kwargs[&#39;flexional&#39;]
+        # Get results
+        fetch_future = None
+        if Dictionary.server_infos[&#39;connected&#39;]:
+            # Request the external database
+            fetch_future = asyncio.ensure_future(
+                self._fetch(
+                    &#39;unitex&#39;,
+                    &#39;compose&#39;,
+                    lem=lem,
+                    **param
+                ),
+                loop=self._async_loop
+            )
+        elif not Dictionary._is_pinging:
+            self._test_connection()
+
+        ret = list()
+        # Check the local database
+        result = self._local_db.find(
+                self._create_word(**{
+                    &#39;lem&#39;: lem,
+                    **param
+                })
+        )
+
+        if result:
+            ret += result
+        if fetch_future:
+            # Get result from request
+            results = self._async_loop.run_until_complete(fetch_future) or []
+            for result in results:
+                result[&#39;lem&#39;] = result[&#39;lem&#39;] or result[&#39;label&#39;]
+                word = self._create_word(**result)
+                ret.append(word)  # Add result to return value
+
+        return ret
+
+    def get_infos_on(self, word: dict):
+        &#34;&#34;&#34;Get definitions, synonyms, and others datas on &#39;word&#39;.
+
+        *word -- One result of find() or __getitem__()
+
+        &#34;&#34;&#34;
+        if not Dictionary.server_infos[&#39;connected&#39;]:
+            # Cannot access to extarnal database
+            self._test_connection()
+            return
+        elif &#39;isFetched&#39; in word and word[&#39;isFetched&#39;]:
+            # This world is already fetched
+            return
+
+        # Request the datas from internet
+        fetch_future = self._async_loop.ensure_future(
+            self._fetch(
+                &#39;dictionary&#39;,
+                word[&#39;lem&#39;] or word[&#39;label&#39;],
+                type=word[&#39;type&#39;]
+            ),
+            loop=self._async_loop
+        )
+        # Get result of request
+        results = self._async_loop.run_until_complete(fetch_future) or []
+        for result in results:
+            result[&#39;isFetched&#39;] = True
+            self.update(
+                result,
+                word,
+                overwrite=False,
+                insertable=False
+            )
+
+    def beautify(self, word: dict):
+        &#34;&#34;&#34;Return word repr, it remove keys with empty value.
+
+        *word -- One result of find() or __getitem__()
+
+        &#34;&#34;&#34;
+        if word is None:
+            return None
+
+        ret = dict()
+        for k in self._model.keys():
+            if word[k]:  # Parse keys with non-empty value
+                ret[k] = word[k]
+
+        if word[&#39;isPersistent&#39;]:
+            del ret[&#39;_id&#39;]
+            del ret[&#39;isPersistent&#39;]
+
+        return ret
+
+    def insert(self, force=False, **kwargs):
+        &#34;&#34;&#34;Save a new word in the database and return it.
+
+        *word -- One result of find() or __getitem__()
+        *[force] -- If True and word is already exist, insert will
+                    make a copy and save it
+        *[kwargs] -- Others attribute of word
+
+        &#34;&#34;&#34;
+        if &#39;label&#39; not in kwargs or not kwargs[&#39;label&#39;]:
+            raise KeyError(&#34;no &#39;label&#39; found, cannot insert this word&#34;)
+
+        word = self._create_word(**kwargs)
+
+        if word[&#39;isPersistent&#39;]:
+            if not force:
+                # Can not insert, it seems to already be in the database
+                try:
+                    # Touch word
+                    self._local_db.find(word)
+                except Exception as e:
+                    raise e
+                finally:
+                    return
+            # Force the insertion
+            word[&#39;isPersistent&#39;] = False
+
+        # Insert in database
+        self._local_db.insert(word)
+
+        return word
+
+    def update(self, kw: dict, word: dict, overwrite=True, insertable=True):
+        &#34;&#34;&#34;Allow to update some field of &#39;word&#39;.
+
+        *kw -- Keys, Values to update
+        *word -- One result of find() or __getitem__()
+        *[overwrite] -- Replace existing value by new value, else try to add it
+        *[insertable] -- Save it in database if True
+
+        &#34;&#34;&#34;
+        tmp_kw = dict(kw)
+        # Control is &#39;_id&#39; and &#39;isPersistent&#39; try to be manually update
+        if &#39;_id&#39; in kw:
+            del tmp_kw[&#39;_id&#39;]
+        if &#39;isPersistent&#39; in kw:
+            del tmp_kw[&#39;isPersistent&#39;]
+
+        if overwrite:
+            # Replace values
+            for key in tmp_kw.keys():
+                if key in word:
+                    word[key] = kw[key]
+        else:
+            # Try to adding value
+            self._copy_word(
+                    tmp_kw,
+                    word,
+                    exceptions=[
+                        &#39;label&#39;,
+                        &#39;type&#39;
+                    ]
+                )
+
+        if word[&#39;isPersistent&#39;]:
+            # Update database
+            self._local_db.update(word, word)
+        elif insertable:
+            # Insert the update in the database
+            self._local_db.insert(word)
+
+    def add_sens(
+        self, word: dict, definition: str,
+        examples: list = [], synonyms: list = []
+    ):
+        &#34;&#34;&#34;Insert a sens into word.
+
+        *word -- One result of find() or __getitem__()
+        *definition -- Sens&#39; description
+        *[examples] -- List of examples
+        *[synonyms] -- List of synonyms
+
+        &#34;&#34;&#34;
+        # Initialize sens structure
+        sens = {
+            &#39;definition&#39;: definition,
+            &#39;examples&#39;: examples,
+            &#39;synonyms&#39;: synonyms
+        }
+
+        self.update({&#39;sens&#39;: [sens]}, word, overwrite=False)
+
+    def add_quote(
+        self, word: dict, quote: str,
+        author: str = None, infos: str = None, infosAuthor: str = None
+    ):
+        &#34;&#34;&#34;Insert a quote into word.
+
+        *word -- One result of find() or __getitem__()
+        *quote -- The quote
+        *[author] -- Author name
+        *[infos] -- Infos on the quote
+        *[infosAuthor] -- Infos author&#39;s quote
+
+        &#34;&#34;&#34;
+        # Initialize sens structure
+        quote = {
+            &#39;text&#39;: quote,
+            &#39;author&#39;: author,
+            &#39;infos&#39;: infos,
+            &#39;infosAuthor&#39;: infosAuthor
+        }
+
+        self.update({&#39;quotes&#39;: [quote]}, word, overwrite=False)
+
+    def add_difficulty(self, word: dict, d_type: str, d_text: str):
+        &#34;&#34;&#34;Insert a difficulty into word.
+
+        *word -- One result of find() or __getitem__()
+        *d_type -- Type of the difficulty
+        *d_text -- Description of difficulty
+
+        &#34;&#34;&#34;
+        # Initialize sens structure
+        difficulty = {
+            &#39;type&#39;: d_type,
+            &#39;text&#39;: d_text
+        }
+
+        self.update({&#39;difficulties&#39;: [difficulty]}, word, overwrite=False)
+
+    def get_group_of(self, word: dict):
+        &#34;&#34;&#34;[WARNING] Return synonyms group of word.
+        (Coming soon...)
+
+        *word -- One result of find() or __getitem__()
+
+        &#34;&#34;&#34;
+        print(&#39;[WARNING] This function is in contruction ...&#39;)
+        pass
+
+    def _create_word(self, **kwargs):
+        &#34;&#34;&#34;Create and init structure of word.
+
+        *[kwargs] -- Attributes of word
+
+        &#34;&#34;&#34;
+        new_word = dict(self._model)
+        # Initialize values of word according to parameters
+        for k in kwargs.keys():
+            new_word[k] = kwargs[k]
+
+        return new_word
+
+    def _get_srv_avg_latence(self, word_list: list = None):
+        &#34;&#34;&#34;Calculate average latence to request.
+
+        *word_list] -- List of word to search on external database
+                       for the calculation
+        
+        &#34;&#34;&#34;
+        if not Dictionary.server_infos[&#39;connected&#39;]:
+            # Cannot access to the external database
+            return None
+
+        if not word_list:
+            # No word list specified
+            word_list = [
+                &#39;dictionnaire&#39;,
+                &#39;ranger&#39;,
+                &#39;être&#39;,
+                &#39;indispensable&#39;
+            ]
+
+        start_time = time.time()
+        for label in word_list:
+            # Request extarnal database
+            asyncio.run(
+                self._fetch(&#39;dictionary&#39;, label)
+            )
+
+        return (time.time() - start_time) / len(word_list)
+
+    def _copy_word(self, word_src, word_dst, exceptions=[]):
+        &#34;&#34;&#34;Update a word by adding values if possible else replace it.&#34;&#34;&#34;
+        for k, v in word_src.items():
+            if k in exceptions:
+                # key must not be update
+                continue
+            if k in word_dst:
+                if not isinstance(v, type(word_dst[k])):
+                    # Not the same type
+                    word_dst[k] = v
+                elif isinstance(v, list):
+                    word_dst[k] += v
+                elif isinstance(v, dict):
+                    word_dst[k] = word_dst[k] | v
+                else:
+                    # Cannot add the value
+                    word_dst[k] = v
+            else:
+                # Add value
+                word_dst[k] = v
+
+    async def _fetch(self, *args, **kwargs):
+        &#34;&#34;&#34;Allow to request external server.&#34;&#34;&#34;
+        def kwargs_to_url(key, arg):
+            &#34;&#34;&#34;Translate kwargs argument in url syntax.&#34;&#34;&#34;
+            try:
+                arg = arg.strip()
+            except Exception:
+                pass
+            return &#39;{}={}&#39;.format(key, arg)
+
+        # Initialize additionals str_kwargs paramaters (kwargs)
+        str_kwargs = list()
+        # Translate kwargs argument in url syntax
+        for k, arg in kwargs.items():
+            if isinstance(arg, list):
+                for elem in arg:
+                    str_kwargs.append(kwargs_to_url(k, elem))
+            else:
+                str_kwargs.append(kwargs_to_url(k, arg))
+
+        str_kwargs = &#39;?{}&#39;.format(
+                    &#39;&amp;&#39;.join(str_kwargs)
+                )
+        # Construct the URL for request API
+        api_url = &#39;{}/{}{}&#39;.format(
+            settings.DICTIONARY_API_URL,
+            &#39;/&#39;.join(args),
+            str_kwargs if str_kwargs != &#39;?&#39; else &#39;&#39;
+        )
+        try:
+            # Request the API Dictionary
+            response = requests.get(api_url, headers=self._headers)
+
+            if response.status_code == 200:
+                # API response with no error
+                return json.loads(response.content.decode(&#39;utf-8&#39;))
+        except requests.exceptions.ConnectionError:
+            pass
+
+        Dictionary.server_infos[&#39;connected&#39;] = False
+        self._test_connection()
+
+        return None
+
+    def _test_connection(self):
+        &#34;&#34;&#34;Allow to launch a process that try to access to server.&#34;&#34;&#34;
+        if Dictionary.server_infos[&#39;connected&#39;] or Dictionary._is_pinging:
+            # Is already connected or pinging
+            return
+
+        Dictionary._is_pinging = True
+        self._ping_server()
+
+    def _ping_server(self):
+        &#34;&#34;&#34;Allow to initialize pinging thread and start it.&#34;&#34;&#34;
+        def _ping_server_aux(e):
+            connected = False
+            waiting_time = 1  # Seconds
+
+            while not e.isSet():
+                # Ping the server
+                ping_time = float(
+                    asyncio.run(
+                        self._fetch(&#39;ping&#39;)
+                    ) or 0
+                ) or None
+                connected = ping_time is not None
+
+                if connected:
+                    # Connection is etablished with sucess
+                    e.set()
+                    Dictionary.server_infos[&#39;connected&#39;] = True
+                    break
+                # Sleep and wait a potential signal
+                e.wait(waiting_time)
+                waiting_time *= (12 / 9)  # Extend sleeping time
+
+            Dictionary._is_pinging = False
+
+            if self._optimize:
+                # Calculate speed of server requesting (by default 4 words)
+                server_rq_speed = self._get_srv_avg_latence()
+                # Set find time optimization
+                self._local_db.find_time_opti = server_rq_speed
+
+        event = threading.Event()  # Init the stopping event
+        thread = threading.Thread(  # Create the pinging thread
+            name=&#39;ping-server&#39;,
+            target=_ping_server_aux,
+            args=(event, )
+        )
+        self._ping = (thread, event)
+        thread.setDaemon(True)
+        thread.start()</code></pre>
+</details>
+<h3>Class variables</h3>
+<dl>
+<dt id="dictionary.dictionary.Dictionary.server_infos"><code class="name">var <span class="ident">server_infos</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.server_state_model"><code class="name">var <span class="ident">server_state_model</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="dictionary.dictionary.Dictionary.add_difficulty"><code class="name flex">
+<span>def <span class="ident">add_difficulty</span></span>(<span>self, word: dict, d_type: str, d_text: str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Insert a difficulty into word.</p>
+<p><em>word &ndash; One result of find() or <strong>getitem</strong>()
+</em>d_type &ndash; Type of the difficulty
+*d_text &ndash; Description of difficulty</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_difficulty(self, word: dict, d_type: str, d_text: str):
+    &#34;&#34;&#34;Insert a difficulty into word.
+
+    *word -- One result of find() or __getitem__()
+    *d_type -- Type of the difficulty
+    *d_text -- Description of difficulty
+
+    &#34;&#34;&#34;
+    # Initialize sens structure
+    difficulty = {
+        &#39;type&#39;: d_type,
+        &#39;text&#39;: d_text
+    }
+
+    self.update({&#39;difficulties&#39;: [difficulty]}, word, overwrite=False)</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.add_quote"><code class="name flex">
+<span>def <span class="ident">add_quote</span></span>(<span>self, word: dict, quote: str, author: str = None, infos: str = None, infosAuthor: str = None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Insert a quote into word.</p>
+<p><em>word &ndash; One result of find() or <strong>getitem</strong>()
+</em>quote &ndash; The quote
+<em>[author] &ndash; Author name
+</em>[infos] &ndash; Infos on the quote
+*[infosAuthor] &ndash; Infos author's quote</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_quote(
+    self, word: dict, quote: str,
+    author: str = None, infos: str = None, infosAuthor: str = None
+):
+    &#34;&#34;&#34;Insert a quote into word.
+
+    *word -- One result of find() or __getitem__()
+    *quote -- The quote
+    *[author] -- Author name
+    *[infos] -- Infos on the quote
+    *[infosAuthor] -- Infos author&#39;s quote
+
+    &#34;&#34;&#34;
+    # Initialize sens structure
+    quote = {
+        &#39;text&#39;: quote,
+        &#39;author&#39;: author,
+        &#39;infos&#39;: infos,
+        &#39;infosAuthor&#39;: infosAuthor
+    }
+
+    self.update({&#39;quotes&#39;: [quote]}, word, overwrite=False)</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.add_sens"><code class="name flex">
+<span>def <span class="ident">add_sens</span></span>(<span>self, word: dict, definition: str, examples: list = [], synonyms: list = [])</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Insert a sens into word.</p>
+<p><em>word &ndash; One result of find() or <strong>getitem</strong>()
+</em>definition &ndash; Sens' description
+<em>[examples] &ndash; List of examples
+</em>[synonyms] &ndash; List of synonyms</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_sens(
+    self, word: dict, definition: str,
+    examples: list = [], synonyms: list = []
+):
+    &#34;&#34;&#34;Insert a sens into word.
+
+    *word -- One result of find() or __getitem__()
+    *definition -- Sens&#39; description
+    *[examples] -- List of examples
+    *[synonyms] -- List of synonyms
+
+    &#34;&#34;&#34;
+    # Initialize sens structure
+    sens = {
+        &#39;definition&#39;: definition,
+        &#39;examples&#39;: examples,
+        &#39;synonyms&#39;: synonyms
+    }
+
+    self.update({&#39;sens&#39;: [sens]}, word, overwrite=False)</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.beautify"><code class="name flex">
+<span>def <span class="ident">beautify</span></span>(<span>self, word: dict)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return word repr, it remove keys with empty value.</p>
+<p>*word &ndash; One result of find() or <strong>getitem</strong>()</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def beautify(self, word: dict):
+    &#34;&#34;&#34;Return word repr, it remove keys with empty value.
+
+    *word -- One result of find() or __getitem__()
+
+    &#34;&#34;&#34;
+    if word is None:
+        return None
+
+    ret = dict()
+    for k in self._model.keys():
+        if word[k]:  # Parse keys with non-empty value
+            ret[k] = word[k]
+
+    if word[&#39;isPersistent&#39;]:
+        del ret[&#39;_id&#39;]
+        del ret[&#39;isPersistent&#39;]
+
+    return ret</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.compose"><code class="name flex">
+<span>def <span class="ident">compose</span></span>(<span>self, lem: str, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Allow to find words according to this infinitive
+and other specifications.</p>
+<p><em>lem &ndash; Infinitive form of searched word
+</em>[type] &ndash; Type of word that need to match to
+<em>[semantic] &ndash; List of semantic that need to match to
+</em>[flexional] &ndash; List of flexional that need to match to</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def compose(self, lem: str, **kwargs):
+    &#34;&#34;&#34;Allow to find words according to this infinitive
+    and other specifications.
+
+    *lem -- Infinitive form of searched word
+    *[type] -- Type of word that need to match to
+    *[semantic] -- List of semantic that need to match to
+    *[flexional] -- List of flexional that need to match to
+
+    &#34;&#34;&#34;
+    # Initialize additionals matching parameters
+    param = dict()
+    if &#39;type&#39; in kwargs:
+        param[&#39;gram&#39;] = kwargs[&#39;type&#39;]
+    if &#39;semantic&#39; in kwargs:
+        param[&#39;semantic&#39;] = kwargs[&#39;semantic&#39;]
+    if &#39;flexional&#39; in kwargs:
+        param[&#39;flexional&#39;] = kwargs[&#39;flexional&#39;]
+    # Get results
+    fetch_future = None
+    if Dictionary.server_infos[&#39;connected&#39;]:
+        # Request the external database
+        fetch_future = asyncio.ensure_future(
+            self._fetch(
+                &#39;unitex&#39;,
+                &#39;compose&#39;,
+                lem=lem,
+                **param
+            ),
+            loop=self._async_loop
+        )
+    elif not Dictionary._is_pinging:
+        self._test_connection()
+
+    ret = list()
+    # Check the local database
+    result = self._local_db.find(
+            self._create_word(**{
+                &#39;lem&#39;: lem,
+                **param
+            })
+    )
+
+    if result:
+        ret += result
+    if fetch_future:
+        # Get result from request
+        results = self._async_loop.run_until_complete(fetch_future) or []
+        for result in results:
+            result[&#39;lem&#39;] = result[&#39;lem&#39;] or result[&#39;label&#39;]
+            word = self._create_word(**result)
+            ret.append(word)  # Add result to return value
+
+    return ret</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.find"><code class="name flex">
+<span>def <span class="ident">find</span></span>(<span>self, label: str = None, all=False, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return a list of results that matching with label/type.</p>
+<p><em>[label] &ndash; Label of searching word, if None try to get in kwargs
+</em>[all] &ndash; If True, find will add API Dictionary whatever result
+*[kwargs] &ndash; Can be used to search with a 'word' object</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def find(self, label: str = None, all=False, **kwargs):
+    &#34;&#34;&#34;Return a list of results that matching with label/type.
+
+    *[label] -- Label of searching word, if None try to get in kwargs
+    *[all] -- If True, find will add API Dictionary whatever result
+    *[kwargs] -- Can be used to search with a &#39;word&#39; object
+
+    &#34;&#34;&#34;
+    if label is None:
+        if &#39;label&#39; in kwargs:
+            # kwargs seems to be like word
+            label = kwargs[&#39;label&#39;]
+        else:
+            # Impossible to find something
+            return None
+
+    if &#39;type&#39; not in kwargs:
+        # Type is filled
+        kwargs[&#39;type&#39;] = None
+
+    ret = list()
+    # Request of API Dictioanry
+    fetch_future = None
+    if Dictionary.server_infos[&#39;connected&#39;]:
+        # Request the external database
+        fetch_future = asyncio.ensure_future(
+            self._fetch(&#39;unitex&#39;, label, gram=kwargs[&#39;type&#39;]),
+            loop=self._async_loop
+        )
+    elif not Dictionary._is_pinging:
+        self._test_connection()
+    # Check the local database
+    result = self._local_db.find(
+            self._create_word(**{
+                &#39;label&#39;: label,
+                &#39;type&#39;: kwargs[&#39;type&#39;]
+            })
+    )
+
+    if result:
+        # Word found in local
+        ret += result
+    if fetch_future:
+        # Get result of request
+        results = self._async_loop.run_until_complete(fetch_future) or []
+        if not result or all:
+            for result in results:
+                # result[&#39;lem&#39;] = result[&#39;lem&#39;] or result[&#39;label&#39;]
+                result[&#39;type&#39;] = result[&#39;gram&#39;] or None
+                word = self._create_word(**result)
+                ret.append(word)  # Add result to return value
+
+    return ret or None</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.get_group_of"><code class="name flex">
+<span>def <span class="ident">get_group_of</span></span>(<span>self, word: dict)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>[WARNING] Return synonyms group of word.
+(Coming soon&hellip;)</p>
+<p>*word &ndash; One result of find() or <strong>getitem</strong>()</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_group_of(self, word: dict):
+    &#34;&#34;&#34;[WARNING] Return synonyms group of word.
+    (Coming soon...)
+
+    *word -- One result of find() or __getitem__()
+
+    &#34;&#34;&#34;
+    print(&#39;[WARNING] This function is in contruction ...&#39;)
+    pass</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.get_infos_on"><code class="name flex">
+<span>def <span class="ident">get_infos_on</span></span>(<span>self, word: dict)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get definitions, synonyms, and others datas on 'word'.</p>
+<p>*word &ndash; One result of find() or <strong>getitem</strong>()</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_infos_on(self, word: dict):
+    &#34;&#34;&#34;Get definitions, synonyms, and others datas on &#39;word&#39;.
+
+    *word -- One result of find() or __getitem__()
+
+    &#34;&#34;&#34;
+    if not Dictionary.server_infos[&#39;connected&#39;]:
+        # Cannot access to extarnal database
+        self._test_connection()
+        return
+    elif &#39;isFetched&#39; in word and word[&#39;isFetched&#39;]:
+        # This world is already fetched
+        return
+
+    # Request the datas from internet
+    fetch_future = self._async_loop.ensure_future(
+        self._fetch(
+            &#39;dictionary&#39;,
+            word[&#39;lem&#39;] or word[&#39;label&#39;],
+            type=word[&#39;type&#39;]
+        ),
+        loop=self._async_loop
+    )
+    # Get result of request
+    results = self._async_loop.run_until_complete(fetch_future) or []
+    for result in results:
+        result[&#39;isFetched&#39;] = True
+        self.update(
+            result,
+            word,
+            overwrite=False,
+            insertable=False
+        )</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.get_name"><code class="name flex">
+<span>def <span class="ident">get_name</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return name of used database.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_name(self):
+    &#34;&#34;&#34;Return name of used database.&#34;&#34;&#34;
+
+    return self._name</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.get_server_state"><code class="name flex">
+<span>def <span class="ident">get_server_state</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return infos about server state.</p>
+<p>Returned infos is a dict with follow keys:
+<em>server host &ndash; Name or IP value of host
+</em>connected &ndash; State of server
+<em>upload speed &ndash; If 'connected' upload speed
+</em>download speed &ndash; If 'connected' dowload speed</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_server_state(self):
+    &#34;&#34;&#34;Return infos about server state.
+
+    Returned infos is a dict with follow keys:
+    *server host -- Name or IP value of host
+    *connected -- State of server
+    *upload speed -- If &#39;connected&#39; upload speed
+    *download speed -- If &#39;connected&#39; dowload speed
+
+    &#34;&#34;&#34;
+    # Init the return value
+    ret = dict(Dictionary.server_state_model)
+
+    start_time = time.time()
+    # Ping server and convert its returned value
+    ping_time = float(
+        self._async_loop.run_until_complete(
+            self._fetch(&#39;ping&#39;)
+        ) or 0
+    ) or None
+
+    end_time = time.time()
+
+    if ping_time:
+        # Ping success
+        ret[&#39;connected&#39;] = True
+        ret[&#39;upload speed&#39;] = ping_time - start_time
+        ret[&#39;download speed&#39;] = end_time - ping_time
+    # Save status un class for others instances know about server status
+    Dictionary.server_infos = ret
+
+    return ret</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.insert"><code class="name flex">
+<span>def <span class="ident">insert</span></span>(<span>self, force=False, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Save a new word in the database and return it.</p>
+<p><em>word &ndash; One result of find() or <strong>getitem</strong>()
+</em>[force] &ndash; If True and word is already exist, insert will
+make a copy and save it
+*[kwargs] &ndash; Others attribute of word</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def insert(self, force=False, **kwargs):
+    &#34;&#34;&#34;Save a new word in the database and return it.
+
+    *word -- One result of find() or __getitem__()
+    *[force] -- If True and word is already exist, insert will
+                make a copy and save it
+    *[kwargs] -- Others attribute of word
+
+    &#34;&#34;&#34;
+    if &#39;label&#39; not in kwargs or not kwargs[&#39;label&#39;]:
+        raise KeyError(&#34;no &#39;label&#39; found, cannot insert this word&#34;)
+
+    word = self._create_word(**kwargs)
+
+    if word[&#39;isPersistent&#39;]:
+        if not force:
+            # Can not insert, it seems to already be in the database
+            try:
+                # Touch word
+                self._local_db.find(word)
+            except Exception as e:
+                raise e
+            finally:
+                return
+        # Force the insertion
+        word[&#39;isPersistent&#39;] = False
+
+    # Insert in database
+    self._local_db.insert(word)
+
+    return word</code></pre>
+</details>
+</dd>
+<dt id="dictionary.dictionary.Dictionary.update"><code class="name flex">
+<span>def <span class="ident">update</span></span>(<span>self, kw: dict, word: dict, overwrite=True, insertable=True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Allow to update some field of 'word'.</p>
+<p><em>kw &ndash; Keys, Values to update
+</em>word &ndash; One result of find() or <strong>getitem</strong>()
+<em>[overwrite] &ndash; Replace existing value by new value, else try to add it
+</em>[insertable] &ndash; Save it in database if True</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update(self, kw: dict, word: dict, overwrite=True, insertable=True):
+    &#34;&#34;&#34;Allow to update some field of &#39;word&#39;.
+
+    *kw -- Keys, Values to update
+    *word -- One result of find() or __getitem__()
+    *[overwrite] -- Replace existing value by new value, else try to add it
+    *[insertable] -- Save it in database if True
+
+    &#34;&#34;&#34;
+    tmp_kw = dict(kw)
+    # Control is &#39;_id&#39; and &#39;isPersistent&#39; try to be manually update
+    if &#39;_id&#39; in kw:
+        del tmp_kw[&#39;_id&#39;]
+    if &#39;isPersistent&#39; in kw:
+        del tmp_kw[&#39;isPersistent&#39;]
+
+    if overwrite:
+        # Replace values
+        for key in tmp_kw.keys():
+            if key in word:
+                word[key] = kw[key]
+    else:
+        # Try to adding value
+        self._copy_word(
+                tmp_kw,
+                word,
+                exceptions=[
+                    &#39;label&#39;,
+                    &#39;type&#39;
+                ]
+            )
+
+    if word[&#39;isPersistent&#39;]:
+        # Update database
+        self._local_db.update(word, word)
+    elif insertable:
+        # Insert the update in the database
+        self._local_db.insert(word)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="dictionary" href="index.html">dictionary</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="dictionary.dictionary.Dictionary" href="#dictionary.dictionary.Dictionary">Dictionary</a></code></h4>
+<ul class="two-column">
+<li><code><a title="dictionary.dictionary.Dictionary.add_difficulty" href="#dictionary.dictionary.Dictionary.add_difficulty">add_difficulty</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.add_quote" href="#dictionary.dictionary.Dictionary.add_quote">add_quote</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.add_sens" href="#dictionary.dictionary.Dictionary.add_sens">add_sens</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.beautify" href="#dictionary.dictionary.Dictionary.beautify">beautify</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.compose" href="#dictionary.dictionary.Dictionary.compose">compose</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.find" href="#dictionary.dictionary.Dictionary.find">find</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.get_group_of" href="#dictionary.dictionary.Dictionary.get_group_of">get_group_of</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.get_infos_on" href="#dictionary.dictionary.Dictionary.get_infos_on">get_infos_on</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.get_name" href="#dictionary.dictionary.Dictionary.get_name">get_name</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.get_server_state" href="#dictionary.dictionary.Dictionary.get_server_state">get_server_state</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.insert" href="#dictionary.dictionary.Dictionary.insert">insert</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.server_infos" href="#dictionary.dictionary.Dictionary.server_infos">server_infos</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.server_state_model" href="#dictionary.dictionary.Dictionary.server_state_model">server_state_model</a></code></li>
+<li><code><a title="dictionary.dictionary.Dictionary.update" href="#dictionary.dictionary.Dictionary.update">update</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.1</a>.</p>
+</footer>
+</body>
+</html>
