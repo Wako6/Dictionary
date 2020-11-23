@@ -9,6 +9,8 @@
 	- [Insérer un mot dans le dictionnaire](#insert)
 	- [Savoir si un mot est connu](#contains)
 - [Utilisation précommandé](#recommandations)
+	- La structure d'un `word` (mot)
+- [API Dictionary](#api)
 - [Configuration](#config)
 	- [Changer la configuration a l'exécution](#configexec)
 - [Les codes](#codes)
@@ -231,8 +233,42 @@ Liste des fonctions qui compris dans cet ensemble:
 * `__contains__`
 * _insert_ (`**word`)
 * _find_ (`**word`)
+
+### Les attributs d'un `word` (mot)
+
+* **word**:
+	* **label**
+	* **type** 
+	* **lem**
+	* **tags**
+	* **flexional**
+	* **semantic**
+	* **sens**
+		* definition
+		* examples
+		* synonyms
+	* **homonyms**
+	* **difficulties**
+		* type
+		* text
+	* **quotes**
+		* text
+		* author
+		* infos
+		* infosAuthor
  
  Pour plus d'information, veuillez consulter la [documentation]().
+
+<h2 id="api">API Dictionary</h2>
+
+L'`API Dictionary` est un **service** en ligne externe utilisé pour récupérer des **informations sur internet** concernant un mot.
+
+Celui-ci est intégré a la `class Dictionary` et par défaut contient un certain nombre d'informations en base de données recensées dans le tableau ci-dessous.
+
+Intitulé | Données
+ --- | ---
+Nombre de mots a l'infinitif (**lemmatisation**) | 44 411 mots
+Nombre de mots au **total** | 792 260 mots
 
 <h2 id="config">Config</h2>
 
@@ -241,8 +277,6 @@ Intitulé | Nom de la variable | Valeur par défaut
 **Emplacement** des **données** | `DATABASE_PATH` | `/datas`
 **Taille maximal** de données enregistré en base de donnée | `LOCAL_DICT_MAX_SIZE` | 5 Mb
 **Minimum de mots** pouvant être sauvegardé | `LOCAL_DICT_MIN_COUNT` | 1 000 mots
-Nombre de mots a l'infinitif (**lemmatisation**) | - | 44 411 mots
-Nombre de mots au **total** | - | 792 260 mots
 
 <h3 id="configexec">Changer la configuration a l'exécution</h3>
 
