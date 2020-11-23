@@ -24,14 +24,15 @@ cache:
 
 before_script:
   # - python -V               # Print out python version for debugging
-  - pip install virtualenv
-  - virtualenv venv
-  - source venv/bin/activate
+  - echo "CI START EXECUTION"
 
 test:
   image: python:latest
   stage: test
   script:
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
     - pip install -r requirements.txt
     # - python -m pytest "tests"
     - python -m unittest
@@ -40,7 +41,7 @@ test:
 
 docs:
   image: alpine:latest
-  stage: deploy
+  stage: test
   script:
   - echo 'Nothing to do...'
   artifacts:
