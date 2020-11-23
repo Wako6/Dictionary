@@ -39,16 +39,16 @@ test:
   cache:
       untracked: true
 
-docs:
+pages:
   image: alpine:latest
-  stage: test
+  stage: deploy
   script:
   - echo 'Nothing to do...'
   artifacts:
     paths:
-    - docs
-  # only:
-  # - master
+    - public
+  only:
+  - develop
 
 after_script:
   # - find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
