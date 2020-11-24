@@ -1,11 +1,11 @@
 # This file is a template, and might need editing before it works on your project.
 # Official language image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/python/tags/
+image: python:latest
 
 
 stages:
   - test
-  - deploy
 
 # Change pip's cache directory to be inside the project directory since we can
 # only cache local items.
@@ -24,31 +24,18 @@ cache:
 
 before_script:
   # - python -V               # Print out python version for debugging
-  - echo "CI START EXECUTION"
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
 
 test:
-  image: python:latest
   stage: test
   script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
     - pip install -r requirements.txt
     # - python -m pytest "tests"
     - python -m unittest
   cache:
       untracked: true
-
-pages:
-  image: alpine:latest
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - develop
 
 after_script:
   # - find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
