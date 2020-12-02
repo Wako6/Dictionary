@@ -50,7 +50,7 @@ class Dictionary():
 
         if Dictionary.server_infos is None:
             Dictionary.server_infos = dict(Dictionary.server_state_model)
-            self.get_server_state()  # Get server state
+            self.get_server_state(timeout=1)  # Get server state
 
     def __del__(self):
         """Function called when instance is delete."""
@@ -104,7 +104,7 @@ class Dictionary():
 
         return self._name
 
-    def get_server_state(self):
+    def get_server_state(self, timeout=None):
         """Return infos about server state.
 
         Returned infos is a dict with follow keys:
@@ -121,7 +121,7 @@ class Dictionary():
         # Ping server and convert its returned value
         ping_time = float(
             self._async_loop.run_until_complete(
-                self._fetch('ping')
+                self._fetch('ping', _timeout=timeout)
             ) or 0
         ) or None
 
@@ -132,6 +132,8 @@ class Dictionary():
             ret['connected'] = True
             ret['upload speed'] = ping_time - start_time
             ret['download speed'] = end_time - ping_time
+        elif not Dictionary._is_pinging:
+            self._test_connection()
         # Save status un class for others instances know about server status
         Dictionary.server_infos = ret
 
@@ -185,7 +187,8 @@ class Dictionary():
             if not result or all:
                 for result in results:
                     # result['lem'] = result['lem'] or result['label']
-                    result['type'] = result['gram'] or None
+                    if 'gram' in result:
+                        result['type'] = result['gram'] or None
                     word = self._create_word(**result)
                     ret.append(word)  # Add result to return value
 
@@ -459,7 +462,7 @@ class Dictionary():
 
         *word_list] -- List of word to search on external database
                        for the calculation
-        
+
         """
         if not Dictionary.server_infos['connected']:
             # Cannot access to the external database
@@ -504,7 +507,7 @@ class Dictionary():
                 # Add value
                 word_dst[k] = v
 
-    async def _fetch(self, *args, **kwargs):
+    async def _fetch(self, *args, _timeout=None, **kwargs):
         """Allow to request external server."""
         def kwargs_to_url(key, arg):
             """Translate kwargs argument in url syntax."""
@@ -535,7 +538,11 @@ class Dictionary():
         )
         try:
             # Request the API Dictionary
-            response = requests.get(api_url, headers=self._headers)
+            response = requests.get(
+                api_url,
+                headers=self._headers,
+                timeout=_timeout
+            )
 
             if response.status_code == 200:
                 # API response with no error
